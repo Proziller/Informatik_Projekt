@@ -37,6 +37,7 @@
   "resources":[
     {"id":{"name":"ka","path":"objects/ka/ka.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"fads","path":"sprites/fads/fads.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
