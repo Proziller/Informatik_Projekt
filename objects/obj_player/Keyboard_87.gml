@@ -1,2 +1,2 @@
 sprite_index = spr_player_up
-y -= 1
+y -= player_speed
