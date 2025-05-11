@@ -11,6 +11,8 @@ if x < - 7 {
 	x = - 7;
 }
 
+gun.selected = true
+
 sprite_index = body.sprite_index
 
 var _hor = keyboard_check(ord("D")) - keyboard_check(ord("A"));
@@ -43,6 +45,8 @@ wheels.x = x
 wheels.y = y
 grabber.x = x
 grabber.y = y
+gun.x = x+16
+gun.y = y+16
 
 if cooldown > 0{
     cooldown -= 1
@@ -50,5 +54,5 @@ if cooldown > 0{
 
 if mouse_check_button(mb_left) && cooldown == 0 {
     cooldown = 7
-    var bullet = instance_create_depth(x + 16, y + 5, -10, gun)
+    var bullet = instance_create_depth(x + 16, y + 5, -10, gun.bullet)
 }

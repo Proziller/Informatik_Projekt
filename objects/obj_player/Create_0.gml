@@ -4,6 +4,6 @@ keys_pressed = 0
 body = instance_create_depth(-32,-32,-2,obj_player_body)
 grabber = instance_create_depth(x,y,-3,obj_player_grabber)
 wheels = instance_create_depth(x,y,-1,obj_player_wheels)
-gun = obj_bullet1
+gun = instance_create_depth(x,y,depth-1,obj_gun1)
 
 cooldown = 0
