@@ -31,13 +31,12 @@ if _hor + _ver == -1{
 }
 
 if array_contains(nonos, _hor) && array_contains(nonos, _ver){
-    player_speed = 0.8 * player_speed_original;
+    player_speed = 0.75 * player_speed_original;
 }
 
 else { 
     player_speed = player_speed_original;
 }
-
 
 move_and_collide(_hor * player_speed, _ver * player_speed, obj_blockade);
 

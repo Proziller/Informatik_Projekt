@@ -12,8 +12,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_gun_parent","path":"objects/obj_gun_parent/obj_gun_parent.yy",},"propertyId":{"name":"couldown","path":"objects/obj_gun_parent/obj_gun_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"10",},
   ],
   "parent":{
-    "name":"gun1",
-    "path":"folders/Objekte/guns/gun1.yy",
+    "name":"guns",
+    "path":"folders/Objekte/guns.yy",
   },
   "parentObjectId":{
     "name":"obj_gun_parent",

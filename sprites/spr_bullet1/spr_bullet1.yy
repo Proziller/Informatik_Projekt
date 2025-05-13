@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"gun1",
-    "path":"folders/Objekte/guns/gun1.yy",
+    "name":"guns",
+    "path":"folders/Objekte/guns.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
