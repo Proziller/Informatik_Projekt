@@ -10,7 +10,7 @@ if new_game{
     	x = round((random(room_width)-32)/32)*32
     	y = round((random(room_height)-32)/32)*32
         
-        instance_create_depth(x, y, 1, obj_enemy)
+        instance_create_depth(x, y, 1, obj_enemy_creeper)
     }
     
     new_game = false

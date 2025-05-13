@@ -1,1 +1,1 @@
-enemies = [obj_enemy]
+enemies = [obj_enemy_creeper]

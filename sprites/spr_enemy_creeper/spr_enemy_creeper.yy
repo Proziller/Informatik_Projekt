@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"spr_enemy",
+  "%Name":"spr_enemy_creeper",
   "bboxMode":2,
   "bbox_bottom":31,
   "bbox_left":3,
@@ -22,7 +22,7 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"bacf019c-c7c5-4ddf-b2b9-a6c5e430b4af","blendMode":0,"displayName":"default","isLocked":false,"name":"bacf019c-c7c5-4ddf-b2b9-a6c5e430b4af","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_enemy",
+  "name":"spr_enemy_creeper",
   "nineSlice":{
     "$GMNineSliceData":"",
     "bottom":0,
@@ -53,7 +53,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_enemy",
+    "%Name":"spr_enemy_creeper",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -77,7 +77,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_enemy",
+    "name":"spr_enemy_creeper",
     "playback":1,
     "playbackSpeed":2.0,
     "playbackSpeedType":0,
@@ -91,10 +91,10 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4603b9d5-096d-4b0c-b586-bea44b5591e3","path":"sprites/spr_enemy/spr_enemy.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4603b9d5-096d-4b0c-b586-bea44b5591e3","path":"sprites/spr_enemy_creeper/spr_enemy_creeper.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"580e6054-9e79-45fd-9cad-961188257f2e","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ee38bf74-2d60-4279-8737-4c686821ad3f","path":"sprites/spr_enemy/spr_enemy.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ee38bf74-2d60-4279-8737-4c686821ad3f","path":"sprites/spr_enemy_creeper/spr_enemy_creeper.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"54b4bf5a-16b2-4dd7-aad7-da9d885882ef","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
