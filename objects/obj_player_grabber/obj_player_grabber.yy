@@ -7,7 +7,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"gabber",
-    "path":"folders/Objekte/player/gabber.yy",
+    "path":"folders/player/gabber.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite3_2",
-    "path":"sprites/Sprite3_2/Sprite3_2.yy",
+    "name":"spr_grabber1",
+    "path":"sprites/spr_grabber1/spr_grabber1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

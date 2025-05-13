@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"room generation",
-    "path":"folders/Objekte/room generation.yy",
+    "path":"folders/room generation.yy",
   },
   "parentObjectId":null,
   "persistent":false,

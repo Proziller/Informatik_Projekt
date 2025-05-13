@@ -5,5 +5,6 @@ body = instance_create_depth(-32,-32,-2,obj_player_body)
 grabber = instance_create_depth(x,y,-3,obj_player_grabber)
 wheels = instance_create_depth(x,y,-1,obj_player_wheels)
 gun = instance_create_depth(x,y,depth-1,obj_gun1)
-
 cooldown = 0
+hp = 10
+dead = false

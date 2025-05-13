@@ -1,0 +1,11 @@
+{
+  "$GMNotes":"",
+  "%Name":"!!!NAMING!!!",
+  "name":"!!!NAMING!!!",
+  "parent":{
+    "name":"Informatik_Projekt",
+    "path":"Informatik_Projekt.yyp",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+}

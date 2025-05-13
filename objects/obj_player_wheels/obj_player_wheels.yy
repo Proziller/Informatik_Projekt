@@ -7,7 +7,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"wheels",
-    "path":"folders/Objekte/player/wheels.yy",
+    "path":"folders/player/wheels.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_player_wheels_front_1",
-    "path":"sprites/spr_player_wheels_front_1/spr_player_wheels_front_1.yy",
+    "name":"spr_player_wheels_front1",
+    "path":"sprites/spr_player_wheels_front1/spr_player_wheels_front1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

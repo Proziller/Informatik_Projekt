@@ -7,7 +7,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"room generation",
-    "path":"folders/Objekte/room generation.yy",
+    "path":"folders/room generation.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -26,10 +26,10 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
-    "name":"Sprite8",
-    "path":"sprites/Sprite8/Sprite8.yy",
+    "name":"spr_blockade",
+    "path":"sprites/spr_blockade/spr_blockade.yy",
   },
   "spriteMaskId":null,
   "visible":true,

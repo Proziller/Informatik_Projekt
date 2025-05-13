@@ -1,0 +1,16 @@
+assets: always 2 or 3 letter prefix
+    objects: obj for regular objects, par for abstract parents that should never directly spawn into the game, cont for singleton controllers
+    sprites: spr
+    rooms:rm
+    sounds: snd for effects, bgm for music
+    tile sets: ts
+    shaders: shd
+    scripts: scr; if they contain one function, name them for the function, if they contain multiple functions, scrWhateverLibrary
+    functions: no prefix, always a verb
+    fonts: fnt
+    animation curves: ac
+
+variables: no prefix, always a noun. no underscore for locals; variables are pretty freeform but anything that should be true or false should have "is" or "has" or "can" in the title. can_shoot, is_dead, has_weapon, etc.
+arrays: always the plural form of what the array contains
+constructors: always a noun 
+variables:; vars: local vars are always prefixed with an underscore 

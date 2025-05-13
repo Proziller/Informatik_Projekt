@@ -7,7 +7,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"body",
-    "path":"folders/Objekte/player/body.yy",
+    "path":"folders/player/body.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite3",
-    "path":"sprites/Sprite3/Sprite3.yy",
+    "name":"spr_body1",
+    "path":"sprites/spr_body1/spr_body1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

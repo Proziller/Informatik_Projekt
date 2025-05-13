@@ -7,7 +7,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"guns",
-    "path":"folders/Objekte/guns.yy",
+    "path":"folders/guns.yy",
   },
   "parentObjectId":null,
   "persistent":false,
