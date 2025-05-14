@@ -58,14 +58,6 @@ if !dead{
         image_xscale = 1.5
     }
     
-    if cooldown > 0{
-        cooldown -= 1
-    }
-    
-    if mouse_check_button(mb_left) && cooldown == 0 {
-        cooldown = 7
-        var bullet = instance_create_depth(x, y-16, -10, gun.bullet)
-    }
     if hp < 1{
         sprite_index = spr_explosion
         image_speed = 7

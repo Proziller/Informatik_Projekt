@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"weapon_select",
+  "%Name":"obj_gun2",
   "eventList":[],
   "managed":true,
-  "name":"weapon_select",
+  "name":"obj_gun2",
   "overriddenProperties":[],
   "parent":{
-    "name":"UI",
-    "path":"folders/UI.yy",
+    "name":"gun2",
+    "path":"folders/guns/gun2.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_gun2",
+    "path":"sprites/spr_gun2/spr_gun2.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

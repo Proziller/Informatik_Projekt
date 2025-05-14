@@ -2,23 +2,17 @@
   "$GMObject":"",
   "%Name":"obj_bullet1",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_bullet1",
-  "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_gun_parent","path":"objects/obj_gun_parent/obj_gun_parent.yy",},"propertyId":{"name":"damage","path":"objects/obj_gun_parent/obj_gun_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_gun_parent","path":"objects/obj_gun_parent/obj_gun_parent.yy",},"propertyId":{"name":"couldown","path":"objects/obj_gun_parent/obj_gun_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"10",},
-  ],
+  "overriddenProperties":[],
   "parent":{
-    "name":"guns",
-    "path":"folders/guns.yy",
+    "name":"bullets",
+    "path":"folders/guns/bullets.yy",
   },
-  "parentObjectId":{
-    "name":"obj_gun_parent",
-    "path":"objects/obj_gun_parent/obj_gun_parent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

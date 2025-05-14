@@ -1,0 +1,1 @@
+guns = [obj_gun1, obj_gun2]
