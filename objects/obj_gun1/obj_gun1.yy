@@ -9,8 +9,8 @@
   "name":"obj_gun1",
   "overriddenProperties":[],
   "parent":{
-    "name":"gun1",
-    "path":"folders/guns/gun1.yy",
+    "name":"guns",
+    "path":"folders/guns/guns.yy",
   },
   "parentObjectId":null,
   "persistent":false,

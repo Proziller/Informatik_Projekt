@@ -1,4 +1,4 @@
 selected = false
-bullet = obj_bullet1
+bullet = obj_bullet_bleeding
 depth = -10
 cooldown = 0

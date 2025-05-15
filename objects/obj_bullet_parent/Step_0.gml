@@ -2,8 +2,9 @@ if x < 0 or y < 0 or x > room_width or y > room_height or position_meeting(x, y,
     instance_destroy()
 }
 
-var hit = instance_position(x, y, obj_enemy_creeper)
+hit = instance_position(x, y, obj_enemy_parent)
 if hit != noone{
-    instance_destroy()
+    bulletAbility(hit);
     hit.hp -= dmg
+    instance_destroy()
 }

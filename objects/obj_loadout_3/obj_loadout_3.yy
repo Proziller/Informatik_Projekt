@@ -1,16 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_gun2",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_loadout_3",
+  "eventList":[],
   "managed":true,
-  "name":"obj_gun2",
+  "name":"obj_loadout_3",
   "overriddenProperties":[],
   "parent":{
-    "name":"guns",
-    "path":"folders/guns/guns.yy",
+    "name":"loadout",
+    "path":"folders/UI/loadout.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_gun2",
-    "path":"sprites/spr_gun2/spr_gun2.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

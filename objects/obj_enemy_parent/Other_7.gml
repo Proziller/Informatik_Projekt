@@ -1,3 +1,3 @@
 if sprite_index == spr_explosion{
-    instance_destroy(self)
+    instance_destroy()
 }
