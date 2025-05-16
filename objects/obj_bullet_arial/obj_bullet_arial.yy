@@ -10,8 +10,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_bullet_parent","path":"objects/obj_bullet_parent/obj_bullet_parent.yy",},"propertyId":{"name":"dmg","path":"objects/obj_bullet_parent/obj_bullet_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
   ],
   "parent":{
-    "name":"bullets",
-    "path":"folders/guns/bullets.yy",
+    "name":"bullet arial",
+    "path":"folders/weapons/bullets/bullet arial.yy",
   },
   "parentObjectId":{
     "name":"obj_bullet_parent",
@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_bullet2",
-    "path":"sprites/spr_bullet2/spr_bullet2.yy",
+    "name":"spr_bullet_arial",
+    "path":"sprites/spr_bullet_arial/spr_bullet_arial.yy",
   },
   "spriteMaskId":null,
   "visible":true,

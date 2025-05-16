@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_gun1",
-    "path":"sprites/spr_gun1/spr_gun1.yy",
+    "name":"spr_gun_auto",
+    "path":"sprites/spr_gun_auto/spr_gun_auto.yy",
   },
   "spriteMaskId":null,
   "visible":true,

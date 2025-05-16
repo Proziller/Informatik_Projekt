@@ -1,0 +1,1 @@
+//sprite_index = obj_loadout.loudout[1].sprite_index  

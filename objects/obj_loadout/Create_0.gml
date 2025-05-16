@@ -1,3 +1,3 @@
-loudout = [obj_gun1, obj_gun2]
+loudout = [obj_gun_auto, obj_gun_shotgun, obj_gun_sinper]
 selected_gun = 0
 new_game = true

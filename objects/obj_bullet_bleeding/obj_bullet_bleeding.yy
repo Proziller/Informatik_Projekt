@@ -11,8 +11,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_bullet_parent","path":"objects/obj_bullet_parent/obj_bullet_parent.yy",},"propertyId":{"name":"dmg","path":"objects/obj_bullet_parent/obj_bullet_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1.5",},
   ],
   "parent":{
-    "name":"bullets",
-    "path":"folders/guns/bullets.yy",
+    "name":"bullet bleeding",
+    "path":"folders/weapons/bullets/bullet bleeding.yy",
   },
   "parentObjectId":{
     "name":"obj_bullet_parent",
@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_bullet1",
-    "path":"sprites/spr_bullet1/spr_bullet1.yy",
+    "name":"spr_bullet_bleeding",
+    "path":"sprites/spr_bullet_bleeding/spr_bullet_bleeding.yy",
   },
   "spriteMaskId":null,
   "visible":true,
