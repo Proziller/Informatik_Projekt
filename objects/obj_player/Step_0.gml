@@ -1,21 +1,22 @@
 if !dead{
-    if y > room_height - 31{
-        y = room_height - 31;
+    if y > 504{
+        y = 504
     }
-    if x > room_width - 26{
-        x = room_width - 26;
+    if y < 30{
+        y = 30
     }
-    if y < - 1{
-        y = - 1;
+    if x > 606{
+        x = 606
     }
-    if x < - 7 {
-    	x = - 7;
+    if x < 34{
+        x = 34
     }
-    
-    gun.selected = true
     
     sprite_index = body.sprite_index
+    visible = false
     
+    
+    //movement
     var _hor = keyboard_check(ord("D")) - keyboard_check(ord("A"));
     var _ver = keyboard_check(ord("S")) - keyboard_check(ord("W"));
     
@@ -41,12 +42,18 @@ if !dead{
     
     move_and_collide(_hor * player_speed, _ver * player_speed, obj_blockade);
     
+    
+    //having all parts moving
+    body.x = x
+    body.y = y
     wheels.x = x
     wheels.y = y
     grabber.x = x
     grabber.y = y
     gun.x = x
     gun.y = y-14
+    
+    
     with gun {
         image_angle = point_direction(x, y, mouse_x, mouse_y);
         if image_angle < 90 or image_angle > 270{

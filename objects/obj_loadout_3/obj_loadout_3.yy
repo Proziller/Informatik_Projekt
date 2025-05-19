@@ -1,9 +1,7 @@
 {
   "$GMObject":"",
   "%Name":"obj_loadout_3",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"obj_loadout_3",
   "overriddenProperties":[],
@@ -29,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_gun_auto",
+    "path":"sprites/spr_gun_auto/spr_gun_auto.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

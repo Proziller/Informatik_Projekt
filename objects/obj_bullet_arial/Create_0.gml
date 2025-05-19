@@ -8,7 +8,7 @@ bullet_hit_ability = function(targetHit) {
     
     list = ds_list_create();
     ds_list_clear(list);
-    var num = instance_place_list(x, y, obj_enemy_parent, list, false);
+    var num = instance_place_list(x, y, hitter, list, false);
     
     for (var i = 0; i < num; i++) {
         list[| i].hp -= dmg;

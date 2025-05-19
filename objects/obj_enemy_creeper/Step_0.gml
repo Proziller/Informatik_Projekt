@@ -1,4 +1,3 @@
-// Inherit the parent event
 event_inherited();
 
 if distance_to_object(obj_player)<20 && !exploded{

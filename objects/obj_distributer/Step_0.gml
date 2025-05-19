@@ -8,7 +8,6 @@ if new_game{
         	y = round(random(room_height/32))*32
         }
         instance_create_depth(x, y, 1, obj_blockade)
-        show_debug_message(i)
     }
     
     for (var i = 0; i < obj_vars.enemies; i++) {
@@ -19,8 +18,12 @@ if new_game{
         	x = round(random_range(32, room_width - 64))
         	y = round(random_range(32, room_height - 64))
         }
-        instance_create_depth(x, y, 1, obj_enemy_creeper)
-        show_debug_message(i)
+        
+        var max_index = array_length(obj_enemy_parent.enemies) - 1
+        var index = irandom(max_index)
+        var enemy = obj_enemy_parent.enemies[index]
+        
+        instance_create_depth(x, y, 1, enemy)
     }
     
     new_game = false

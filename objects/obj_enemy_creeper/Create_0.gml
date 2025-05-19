@@ -1,4 +1,3 @@
-sped = 1
+event_inherited()
 exploded = false
 path = path_add()
-alarm[0] = 120

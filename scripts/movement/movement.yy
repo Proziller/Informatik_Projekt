@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"movement",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"movement",
+  "parent":{
+    "name":"Informatik_Projekt",
+    "path":"Informatik_Projekt.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

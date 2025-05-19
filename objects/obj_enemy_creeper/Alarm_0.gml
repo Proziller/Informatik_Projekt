@@ -1,5 +1,5 @@
 if sprite_index != spr_explosion && instance_exists(obj_player){
-    sped = 5 * power(0.99, distance_to_object(obj_player))
+    sped = 5 * power(0.99, distance_to_object(obj_player)) * speedy
     image_speed = sped * 2
     
     path_delete(path)
