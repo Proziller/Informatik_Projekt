@@ -42,7 +42,6 @@ if !dead{
     
     move_and_collide(_hor * player_speed, _ver * player_speed, obj_blockade);
     
-    
     //having all parts moving
     body.x = x
     body.y = y
@@ -69,9 +68,9 @@ if !dead{
         sprite_index = spr_explosion
         image_speed = 7
         dead = true
-        body.visible = false
-        grabber.visible = false
-        wheels.visible = false
-        gun.visible = false
+        instance_destroy(body)
+        instance_destroy(grabber)
+        instance_destroy(wheels)
+        instance_destroy(gun)
     }
 }

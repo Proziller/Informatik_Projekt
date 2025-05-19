@@ -1,3 +1,4 @@
 event_inherited();
-
-instance_destroy(gun)
+if !obj_player.dead{
+    instance_destroy(gun)
+}

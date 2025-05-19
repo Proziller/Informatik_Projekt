@@ -14,21 +14,3 @@ variables: no prefix, always a noun. no underscore for locals; variables are pre
 arrays: always the plural form of what the array contains
 constructors: always a noun 
 variables:; vars: local vars are always prefixed with an underscore 
-
-
-if mouse_check_button(mb_left) && cooldown == 0 {
-    cooldown = 7
-    
-    for (var i = 0; i < 4; i++) {
-        var created_bullet = instance_create_depth(x, y, -9, bullet)
-        
-        with created_bullet{
-            sprite_index = spr_bullet1
-            var _dir = point_direction(x, y, mouse_x, mouse_y);
-            direction = _dir + (i * 4) - 6
-            image_angle = direction - 90
-            speed = 5
-            dmg = 1.5
-        }
-    }
-}

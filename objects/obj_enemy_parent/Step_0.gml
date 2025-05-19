@@ -1,3 +1,5 @@
-if hp < 1{
-    sprite_index = spr_explosion
+if !obj_player.dead{
+    if hp < 1{
+        sprite_index = spr_explosion
+    }
 }
