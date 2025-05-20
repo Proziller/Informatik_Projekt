@@ -9,7 +9,8 @@ if !obj_player.dead{
         var created_bullet = instance_create_depth(x, y, -9, bullet)
         
         with created_bullet{
-            direction += spread(4)
+            dmg *= 0.5
+            direction += spread(6)
             speed = 10 
             image_angle = direction
             alarm[0] = 30

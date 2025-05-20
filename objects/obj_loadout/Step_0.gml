@@ -1,7 +1,7 @@
-loudout_objects = [obj_gun_auto, obj_gun_shotgun, obj_gun_sinper]
 if new_game{
     instance_destroy(obj_player.gun)
-    obj_player.gun = instance_create_depth(x,y,depth-1,loudout_objects[selected_gun])
+    obj_player.gun = instance_create_depth(x,y,depth-1,loudout_objects[selected_gun][0])
+    obj_player.gun.bullet = loudout_objects[selected_gun][1]
     new_game = false
     
     obj_loadout_1.sprite_index = loudout_sprites[0]

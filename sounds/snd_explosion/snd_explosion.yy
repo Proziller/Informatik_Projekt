@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"Fight",
+  "%Name":"snd_explosion",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,17 +9,17 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":48.039185,
-  "name":"Fight",
+  "duration":2.16,
+  "name":"snd_explosion",
   "parent":{
-    "name":"Informatik_Projekt",
-    "path":"Informatik_Projekt.yyp",
+    "name":"sprites",
+    "path":"folders/sprites.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"Fight.wav",
+  "soundFile":"snd_explosion.mp3",
   "type":0,
-  "volume":0.25,
+  "volume":1.0,
 }

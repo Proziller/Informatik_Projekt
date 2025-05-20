@@ -1,6 +1,5 @@
-// Inherit the parent event
 event_inherited();
 
-bullet_hit_ability = function(targetHit) {
-    targetHit.alarm[1] = 30
+bullet_hit_ability = function(target_hit) {
+    target_hit.alarm[1] = 30
 }

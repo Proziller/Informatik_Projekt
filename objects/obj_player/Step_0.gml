@@ -1,15 +1,17 @@
 if !dead{
-    if y > 504{
-        y = 504
-    }
-    if y < 30{
-        y = 30
-    }
-    if x > 606{
-        x = 606
-    }
-    if x < 34{
-        x = 34
+    if room = rm_arena1{
+        if y > 504{
+            y = 504
+        }
+        if y < 30{
+            y = 30
+        }
+        if x > 606{
+            x = 606
+        }
+        if x < 34{
+            x = 34
+        }
     }
     
     sprite_index = body.sprite_index
@@ -33,14 +35,14 @@ if !dead{
     }
     
     if array_contains(nonos, _hor) && array_contains(nonos, _ver){
-        player_speed = 0.75 * player_speed_original;
+        sped = 0.75 * player_speed_original;
     }
     
     else { 
-        player_speed = player_speed_original;
+        sped = player_speed_original;
     }
     
-    move_and_collide(_hor * player_speed, _ver * player_speed, obj_blockade);
+    move_and_collide(_hor * sped, _ver * sped, obj_blockade);
     
     //having all parts moving
     body.x = x
@@ -51,7 +53,6 @@ if !dead{
     grabber.y = y
     gun.x = x
     gun.y = y-14
-    
     
     with gun {
         image_angle = point_direction(x, y, mouse_x, mouse_y);

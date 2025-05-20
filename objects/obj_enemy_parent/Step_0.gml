@@ -1,5 +1,5 @@
-if !obj_player.dead{
-    if hp < 1{
-        sprite_index = spr_explosion
-    }
+if hp < 1 && !dying{
+    sprite_index = spr_explosion
+    audio_play_sound(snd_explosion, 1, false)
+    dying = true
 }

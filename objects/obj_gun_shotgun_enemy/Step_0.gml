@@ -9,7 +9,7 @@ if !obj_player.dead{
                 speed = 5
                 direction = point_direction(x,y, pl.x, pl.y) + (i*8)-24 + spread(5)
                 image_angle = direction
-                alarm[0] = 30
+                alarm[0] = 60
             }
         }
         cooldown = 1

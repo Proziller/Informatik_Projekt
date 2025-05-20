@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_fight_intro",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":15.0,
+  "name":"snd_fight_intro",
+  "parent":{
+    "name":"Informatik_Projekt",
+    "path":"Informatik_Projekt.yyp",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_fight_intro.wav",
+  "type":0,
+  "volume":0.5,
+}
