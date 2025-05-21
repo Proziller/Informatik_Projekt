@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.1493877,
+  "duration":0.13061224,
   "name":"snd_gun_auto",
   "parent":{
     "name":"gun auto",
@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"snd_gun_auto.mp3",
   "type":0,
-  "volume":0.5,
+  "volume":0.2,
 }

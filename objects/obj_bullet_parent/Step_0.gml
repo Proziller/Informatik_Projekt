@@ -3,6 +3,7 @@ if !obj_player.dead{
         instance_destroy()
     }
     
+    bullet_constant_gun_ability()
     bullet_constant_ability()
     
     hit = instance_position(x, y, hitter)

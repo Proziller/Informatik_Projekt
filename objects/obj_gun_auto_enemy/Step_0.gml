@@ -9,6 +9,6 @@ if !obj_player.dead{
             speed = 10 
             image_angle = direction
         }
-        alarm[0] = 20
+        alarm[0] = 14
     }
 }
