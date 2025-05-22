@@ -5,3 +5,5 @@ alarm[0] = 90
 freezing = false
 dying = false
 bleed = 10
+path = path_add()
+stunned = false
