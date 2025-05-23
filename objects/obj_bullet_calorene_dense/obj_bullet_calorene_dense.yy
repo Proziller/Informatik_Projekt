@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"Object38",
-  "eventList":[],
-  "managed":true,
-  "name":"Object38",
-  "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_bullet_parent","path":"objects/obj_bullet_parent/obj_bullet_parent.yy",},"propertyId":{"name":"dmg","path":"objects/obj_bullet_parent/obj_bullet_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"6",},
+  "%Name":"obj_bullet_calorene_dense",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
+  "managed":true,
+  "name":"obj_bullet_calorene_dense",
+  "overriddenProperties":[],
   "parent":{
     "name":"bullet clorene dense",
     "path":"folders/weapons/bullets/bullet clorene dense.yy",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite33",
-    "path":"sprites/Sprite33/Sprite33.yy",
+    "name":"spr_bullet_calorene_dense",
+    "path":"sprites/spr_bullet_calorene_dense/spr_bullet_calorene_dense.yy",
   },
   "spriteMaskId":null,
   "visible":true,

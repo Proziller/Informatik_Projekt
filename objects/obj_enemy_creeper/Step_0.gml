@@ -4,7 +4,7 @@ if !obj_player.dead{
         sprite_index = spr_explosion
         obj_player.hp -= 20
         exploded = true
-        image_speed = 12
+        image_speed = 1
         audio_play_sound(snd_explosion, 1, false)
     }
 }

@@ -11,7 +11,7 @@ if !obj_player.dead && cooldown == 0 && pressed {
         }
         with created_bullet{
             bullet_constant_gun_ability = function() {
-                direction += spread(15)
+                direction += spread(10)
             }
             speed = 3
             direction += (i*8)-40
