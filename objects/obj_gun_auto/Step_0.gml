@@ -1,5 +1,4 @@
-if !obj_player.dead && cooldown == 0 && pressed {
-    audio_play_sound(snd_gun_auto, 1, false)
+if !obj_player.dead && cooldown == 0 && pressed && room != rm_home && room != rm_traider {
     cooldown = 1
     
     var created_bullet = instance_create_depth(x, y, -9, bullet)
@@ -8,7 +7,6 @@ if !obj_player.dead && cooldown == 0 && pressed {
         with created_bullet {
             hitter = obj_enemy_parent
             direction = point_direction(x, y, mouse_x, mouse_y) + spread(6)
-            
         }
     }
     with created_bullet {

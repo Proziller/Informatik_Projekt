@@ -1,4 +1,4 @@
-if !dead{
+if !dead && room != rm_home{
     if room = rm_arena1{
         if y > 504{
             y = 504

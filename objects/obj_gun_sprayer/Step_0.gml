@@ -1,4 +1,4 @@
-if !obj_player.dead && cooldown == 0 && pressed {
+if !obj_player.dead && cooldown == 0 && pressed && room != rm_home && room != rm_traider {
     cooldown = 1
     var created_bullet = instance_create_depth(x, y, -9, bullet)
     

@@ -1,4 +1,4 @@
-if !obj_player.dead && !stunned && sprite_index != spr_explosion && instance_exists(obj_player){
+if !stunned && sprite_index != spr_explosion && instance_exists(destination){
     if freezing{
         sped /= 2
     }
@@ -9,7 +9,7 @@ if !obj_player.dead && !stunned && sprite_index != spr_explosion && instance_exi
     }
     path = path_add()
     
-    mp_grid_path(obj_grid_setup.grid, path, x, y, obj_player.x, obj_player.y, 1)
+    mp_grid_path(obj_grid_setup.grid, path, x, y, destination.x, destination.y, 1)
     path_start(path,sped,path_action_stop,1)
     
     alarm[0] = 30

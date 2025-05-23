@@ -1,3 +1,3 @@
-if !obj_player.dead && cooldown == 0 && pressed {
+if !obj_player.dead && cooldown == 0 && pressed && room != rm_home && room != rm_traider {
     alarm[1] = 1
 }

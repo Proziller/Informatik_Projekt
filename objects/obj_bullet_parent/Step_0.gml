@@ -12,6 +12,4 @@ if hit != noone{
     bullet_hit_ability(hit);
     
     instance_destroy()
-    show_debug_message(hitter)
-    show_debug_message(hit)
 }

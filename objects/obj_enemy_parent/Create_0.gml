@@ -7,3 +7,4 @@ dying = false
 bleed = 10
 path = path_add()
 stunned = false
+destination = obj_player

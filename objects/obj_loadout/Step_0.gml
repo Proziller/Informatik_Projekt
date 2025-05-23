@@ -1,41 +1,61 @@
-if new_game{
-    for (var i = 0; i < 3; i++) {
-    	loudout[i] = [obj_vars.guns[random(array_length(obj_vars.guns))], obj_vars.bullets[random(array_length(obj_vars.bullets))]]
-    }
-    instance_destroy(obj_player.gun)
-    
-    obj_player.gun = instance_create_depth(x,y,depth-1,loudout[selected_gun][0])
-    obj_player.gun.bullet = loudout[selected_gun][1]
-    
-    obj_player.gun.selected = true
-    
-    instance_create_depth(-100,-100,depth-1,loudout[0][1])
-    instance_create_depth(-100,-100,depth-1,loudout[1][0])
-    instance_create_depth(-100,-100,depth-1,loudout[1][1])
-    instance_create_depth(-100,-100,depth-1,loudout[2][0])
-    instance_create_depth(-100,-100,depth-1,loudout[2][1])
-    
-    obj_loadout_1.sprite_index = loudout[0][0].sprite_index
-    obj_loadout_bullet_1.sprite_index = loudout[0][1].sprite_index
-    
-    obj_loadout_2.sprite_index = loudout[1][0].sprite_index
-    obj_loadout_bullet_2.sprite_index = loudout[1][1].sprite_index
-    
-    obj_loadout_3.sprite_index = loudout[2][0].sprite_index
-    obj_loadout_bullet_3.sprite_index = loudout[2][1].sprite_index
-    
-    new_game = false
+switch room {
+    case rm_arena1:
+        x = 536
+        y = 40
+        image_xscale = 8
+        image_yscale = 8
+    break
+    case rm_traider:
+        x = 285
+        y = 13
+        image_xscale = 3.2
+        image_yscale = 3.2
+    break
+    case rm_home:
+        y = -100
+    break
 }
-switch (selected_gun) {
+
+
+switch (global.selected_gun) {
 	case 0:
         sprite_index = spr_layout_select_1
     break
     
     case 1:
         sprite_index = spr_layout_select_2
-    break
+    break 
     
     case 2:
         sprite_index = spr_layout_select_3
     break
+}
+
+if !instance_exists(global.loudout[0][0]){
+    instance_create_depth(-100,-100,depth-1,global.loudout[0][0])
+}
+if !instance_exists(global.loudout[0][1]){
+    instance_create_depth(-100,-100,depth-1,global.loudout[0][1])
+}
+if !instance_exists(global.loudout[1][0]){
+    instance_create_depth(-100,-100,depth-1,global.loudout[1][0])
+}
+if !instance_exists(global.loudout[1][1]){
+    instance_create_depth(-100,-100,depth-1,global.loudout[1][1])
+}
+if !instance_exists(global.loudout[2][0]){
+    instance_create_depth(-100,-100,depth-1,global.loudout[2][0])
+}
+if !instance_exists(global.loudout[2][1]){
+    instance_create_depth(-100,-100,depth-1,global.loudout[2][1])
+}
+if instance_exists(obj_loadout_1) && instance_exists(obj_loadout_2) && instance_exists(obj_loadout_3) && instance_exists(obj_loadout_bullet_3) && instance_exists(obj_loadout_bullet_2) && instance_exists(obj_loadout_bullet_1){
+    obj_loadout_1.sprite_index = global.loudout[0][0].sprite_index
+    obj_loadout_bullet_1.sprite_index = global.loudout[0][1].sprite_index
+    
+    obj_loadout_2.sprite_index = global.loudout[1][0].sprite_index
+    obj_loadout_bullet_2.sprite_index = global.loudout[1][1].sprite_index
+    
+    obj_loadout_3.sprite_index = global.loudout[2][0].sprite_index
+    obj_loadout_bullet_3.sprite_index = global.loudout[2][1].sprite_index
 }
