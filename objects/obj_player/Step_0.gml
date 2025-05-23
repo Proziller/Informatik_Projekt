@@ -35,7 +35,7 @@ if !dead{
     }
     
     if array_contains(nonos, _hor) && array_contains(nonos, _ver){
-        sped = 0.75 * player_speed_original;
+        sped = sqrt(sqr(player_speed_original)/2)
     }
     
     else { 

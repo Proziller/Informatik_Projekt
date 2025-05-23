@@ -13,7 +13,7 @@ if !obj_player.dead && cooldown == 0 && pressed {
             speed = 5
             direction += (i*8)-24 + spread(5)
             image_angle = direction
-            alarm[0] = 60
+            alarm[0] = 30
         }
     }
     cooldown = 1

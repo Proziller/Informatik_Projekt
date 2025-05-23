@@ -7,7 +7,7 @@ if !obj_player.dead {
 gun.hitter = obj_player
 gun.x = x
 gun.y = y
-if distance_to_object(obj_player) > gun.distance && !stunned{
+if distance_to_object(obj_player) > gun.distance * 0.8 && !stunned{
     gun.pressed = true
 }
 else  {

@@ -14,3 +14,7 @@ variables: no prefix, always a noun. no underscore for locals; variables are pre
 arrays: always the plural form of what the array contains
 constructors: always a noun 
 variables:; vars: local vars are always prefixed with an underscore 
+
+
+
+sqrt((y^2)/2) = x
