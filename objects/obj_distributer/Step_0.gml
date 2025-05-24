@@ -10,7 +10,9 @@ if new_game{
         instance_create_depth(x, y, 1, obj_blockade)
     }
     
-    for (var i = 0; i < obj_vars.enemies; i++) {
+    var enemies = round(global.fight * 0.5)
+    obj_vars.enemies_alive = enemies + 1
+    for (var i = 0; i < enemies; i++) {
     	x = round(random_range(32, room_width - 64))
     	y = round(random_range(32, room_height - 64))
         

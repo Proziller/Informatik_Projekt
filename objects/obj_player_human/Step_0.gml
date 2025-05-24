@@ -11,4 +11,4 @@ if _hor + _ver > 0 or _hor + _ver < 0{
 else {
 	 image_speed = 0
 }
-move_and_collide(_hor * sped, _ver * sped, obj_blockade);
+move_and_collide(_hor * sped, _ver * sped, [obj_blockade,obj_border]);

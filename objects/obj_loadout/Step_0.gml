@@ -1,7 +1,8 @@
+depth = -100
 switch room {
     case rm_arena1:
-        x = 536
-        y = 40
+        x = 552
+        y = 48
         image_xscale = 8
         image_yscale = 8
     break
@@ -15,7 +16,6 @@ switch room {
         y = -100
     break
 }
-
 
 switch (global.selected_gun) {
 	case 0:

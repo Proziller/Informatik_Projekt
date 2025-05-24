@@ -1,4 +1,4 @@
-if !dash_cooldown{
+if !dash_cooldown && room != rm_home{
     direction = point_direction(x,y,mouse_x,mouse_y)
     speed = 15
     alarm[0] = 5

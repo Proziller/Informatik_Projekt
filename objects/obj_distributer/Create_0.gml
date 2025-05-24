@@ -1,2 +1,2 @@
 new_game = true
-nonos = [obj_player, obj_blockade, obj_enemy_parent, obj_spawnprot]
+nonos = [obj_player, obj_blockade, obj_enemy_parent, obj_spawnprot, obj_border]

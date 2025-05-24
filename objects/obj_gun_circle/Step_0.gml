@@ -9,7 +9,6 @@ if !obj_player.dead && cooldown == 0 && pressed && room != rm_home && room != rm
                 direction = point_direction(x, y, mouse_x, mouse_y)
             }
         }
-        show_debug_message(created_bullet)
         with created_bullet{
             dmg *= 0.8
             speed = 5

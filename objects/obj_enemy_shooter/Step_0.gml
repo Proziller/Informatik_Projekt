@@ -7,11 +7,13 @@ if !obj_player.dead {
 gun.hitter = destination
 gun.x = x
 gun.y = y
-if distance_to_object(obj_player) > gun.distance * 0.8 && !stunned{
-    gun.pressed = true
+
+if distance_to_object(obj_player) > gun.distance * 0.8 or stunned{
+	gun.pressed = false
 }
 else  {
     if path_exists(path) {
     	path_delete(path)
     }
+    gun.pressed = true
 }
