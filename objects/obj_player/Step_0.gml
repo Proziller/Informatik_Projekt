@@ -1,3 +1,4 @@
+global.hp = hp
 if !dead && room != rm_home{
     
     sprite_index = body.sprite_index
@@ -55,7 +56,7 @@ if !dead && room != rm_home{
         image_xscale = 1.5
     }
     
-    if hp < 1{
+    if global.hp < 1{
         sprite_index = spr_explosion
         image_speed = 7
         dead = true
@@ -64,4 +65,7 @@ if !dead && room != rm_home{
         instance_destroy(wheels)
         instance_destroy(gun)
     }
+}
+if dead{
+    room_goto(rm_home)
 }

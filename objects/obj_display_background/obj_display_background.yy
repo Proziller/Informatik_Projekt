@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_abilatyDisplay_down",
+  "%Name":"obj_display_background",
   "eventList":[],
   "managed":true,
-  "name":"obj_abilatyDisplay_down",
+  "name":"obj_display_background",
   "overriddenProperties":[],
   "parent":{
     "name":"traider",
@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Sprite43",
+    "path":"sprites/Sprite43/Sprite43.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

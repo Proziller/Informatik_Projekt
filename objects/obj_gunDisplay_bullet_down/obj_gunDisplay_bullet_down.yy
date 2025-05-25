@@ -1,20 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_gunDisplay_down",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_gunDisplay_bullet_down",
+  "eventList":[],
   "managed":true,
-  "name":"obj_gunDisplay_down",
+  "name":"obj_gunDisplay_bullet_down",
   "overriddenProperties":[],
   "parent":{
     "name":"traider",
     "path":"folders/rooms/traider.yy",
   },
-  "parentObjectId":{
-    "name":"obj_display",
-    "path":"objects/obj_display/obj_display.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_gun_auto",
-    "path":"sprites/spr_gun_auto/spr_gun_auto.yy",
+    "name":"spr_bullet_bleeding",
+    "path":"sprites/spr_bullet_bleeding/spr_bullet_bleeding.yy",
   },
   "spriteMaskId":null,
   "visible":true,

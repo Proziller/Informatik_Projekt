@@ -6,13 +6,13 @@ if !obj_player.dead && cooldown == 0 && pressed && room != rm_home && room != rm
     if selected {
         with created_bullet {
             hitter = obj_enemy_parent
-            direction = point_direction(x, y, mouse_x, mouse_y) + spread(6)
+            direction = point_direction(x, y, mouse_x, mouse_y) + spread(3)
         }
     }
     with created_bullet {
         dmg *= 0.5
         direction += spread(6)
-        speed = 10 
+        speed = 10
         image_angle = direction
         alarm[0] = 30
     }

@@ -1,25 +1,25 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"ts_arena1",
+  "%Name":"ts_traider",
   "autoTileSets":[],
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"ts_arena1",
-  "out_columns":1,
+  "name":"ts_traider",
+  "out_columns":4,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
-    "name":"arena1",
-    "path":"folders/rooms/arena1.yy",
+    "name":"traider",
+    "path":"folders/rooms/traider.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"spr_arena1_tileset",
-    "path":"sprites/spr_arena1_tileset/spr_arena1_tileset.yy",
+    "name":"spr_traider_tileset",
+    "path":"sprites/spr_traider_tileset/spr_traider_tileset.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
@@ -34,5 +34,5 @@
   "tileWidth":32,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":2,
+  "tile_count":20,
 }

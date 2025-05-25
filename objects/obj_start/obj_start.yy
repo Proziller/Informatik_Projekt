@@ -9,8 +9,8 @@
   "name":"obj_start",
   "overriddenProperties":[],
   "parent":{
-    "name":"home",
-    "path":"folders/rooms/home.yy",
+    "name":"door",
+    "path":"folders/rooms/door.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -1,1 +1,1 @@
-room_goto(rm_arena1)
+room_goto(rm_arena)

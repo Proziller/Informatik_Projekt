@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_abilatyDisplay_up",
+  "%Name":"obj_gunDisplay_bullet_up",
   "eventList":[],
   "managed":true,
-  "name":"obj_abilatyDisplay_up",
+  "name":"obj_gunDisplay_bullet_up",
   "overriddenProperties":[],
   "parent":{
     "name":"traider",
@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_bullet_bleeding",
+    "path":"sprites/spr_bullet_bleeding/spr_bullet_bleeding.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

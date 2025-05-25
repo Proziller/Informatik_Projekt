@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_gunDisplay_up",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_gunDisplay_up",
   "overriddenProperties":[],
@@ -9,7 +11,10 @@
     "name":"traider",
     "path":"folders/rooms/traider.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_display",
+    "path":"objects/obj_display/obj_display.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_gun_auto",
+    "path":"sprites/spr_gun_auto/spr_gun_auto.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

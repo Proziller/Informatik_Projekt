@@ -3,12 +3,11 @@
   "%Name":"obj_bullet_calorene_dense",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_bullet_calorene_dense",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_bullet_parent","path":"objects/obj_bullet_parent/obj_bullet_parent.yy",},"propertyId":{"name":"dmg","path":"objects/obj_bullet_parent/obj_bullet_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_bullet_parent","path":"objects/obj_bullet_parent/obj_bullet_parent.yy",},"propertyId":{"name":"dmg","path":"objects/obj_bullet_parent/obj_bullet_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1.5",},
   ],
   "parent":{
     "name":"bullet clorene dense",

@@ -1,16 +1,16 @@
 depth = -100
 switch room {
-    case rm_arena1:
+    case rm_arena:
         x = 552
         y = 48
         image_xscale = 8
         image_yscale = 8
     break
     case rm_traider:
-        x = 285
-        y = 13
-        image_xscale = 3.2
-        image_yscale = 3.2
+        x = 276
+        y = 24
+        image_xscale = 4
+        image_yscale = 4
     break
     case rm_home:
         y = -100
