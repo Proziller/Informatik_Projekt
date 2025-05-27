@@ -1,6 +1,9 @@
-selected = false
-bullet = obj_bullet_arial
-depth = -10
-cooldown = 0
-distance = 100
-pressed = false
+event_inherited();
+
+distance = 150
+count = 6
+bullet_spread = 0
+dgr_offset = 5
+sped = 5
+dist = 30
+reloud = 60

@@ -4,6 +4,7 @@ if room == rm_arena{
     room_goto(rm_arena)
     if global.traider = 5{
         room_goto(rm_traider)
+        global.traider = 1
     }
 }
 if room == rm_traider{

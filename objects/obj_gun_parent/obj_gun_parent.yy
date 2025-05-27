@@ -1,17 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_gun_dandelion",
+  "%Name":"obj_gun_parent",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_gun_dandelion",
+  "name":"obj_gun_parent",
   "overriddenProperties":[],
   "parent":{
-    "name":"gun dandelion",
-    "path":"folders/weapons/guns/gun dandelion.yy",
+    "name":"guns",
+    "path":"folders/weapons/guns.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_gun_dandelion",
-    "path":"sprites/spr_gun_dandelion/spr_gun_dandelion.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

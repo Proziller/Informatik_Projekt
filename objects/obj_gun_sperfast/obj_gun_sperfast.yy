@@ -1,17 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_gun_circle",
+  "%Name":"obj_gun_sperfast",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_gun_circle",
+  "name":"obj_gun_sperfast",
   "overriddenProperties":[],
   "parent":{
-    "name":"gun circle",
-    "path":"folders/weapons/guns/gun circle.yy",
+    "name":"gun dandelion",
+    "path":"folders/weapons/guns/gun dandelion.yy",
   },
   "parentObjectId":{
     "name":"obj_gun_parent",
@@ -35,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_gun_circle",
-    "path":"sprites/spr_gun_circle/spr_gun_circle.yy",
+    "name":"spr_gun_sperfast",
+    "path":"sprites/spr_gun_sperfast/spr_gun_sperfast.yy",
   },
   "spriteMaskId":null,
   "visible":true,

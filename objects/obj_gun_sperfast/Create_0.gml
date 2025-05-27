@@ -1,6 +1,6 @@
 event_inherited();
 
 distance = 400
-damage = 4
-size = 2
+damage = 3
+sped = 20
 reloud = 90
