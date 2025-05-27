@@ -3,4 +3,5 @@ if room == rm_home{
 }
 if room == rm_arena{
     global.fight += 1
+    global.traider += 1
 }

@@ -3,6 +3,7 @@ if peng_peng > 0{
     
     var created_bullet = instance_create_depth(x, y, -9, bullet)
     
+    audio_play_sound(snd_gun_auto, 1, false)
     if selected {
         with created_bullet{
             hitter = obj_enemy_parent
@@ -10,7 +11,7 @@ if peng_peng > 0{
         }
     }
     with created_bullet{
-        dmg *= 0.5
+        dmg *= 0.75
         direction += spread(3)
         speed = 10 
         image_angle = direction

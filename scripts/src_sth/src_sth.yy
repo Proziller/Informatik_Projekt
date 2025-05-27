@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"src_sth",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"src_sth",
+  "parent":{
+    "name":"Informatik_Projekt",
+    "path":"Informatik_Projekt.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

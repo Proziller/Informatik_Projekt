@@ -12,8 +12,8 @@
     "path":"folders/rooms/traider.yy",
   },
   "parentObjectId":{
-    "name":"obj_display",
-    "path":"objects/obj_display/obj_display.yy",
+    "name":"obj_display_parent",
+    "path":"objects/obj_display_parent/obj_display_parent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

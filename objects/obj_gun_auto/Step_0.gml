@@ -1,6 +1,7 @@
 if !obj_player.dead && cooldown == 0 && pressed && room != rm_home && room != rm_traider {
     cooldown = 1
     
+    audio_play_sound(snd_gun_auto, 1, false)
     var created_bullet = instance_create_depth(x, y, -9, bullet)
     
     if selected {

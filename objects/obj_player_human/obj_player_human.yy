@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite36",
-    "path":"sprites/Sprite36/Sprite36.yy",
+    "name":"spr_player_human",
+    "path":"sprites/spr_player_human/spr_player_human.yy",
   },
   "spriteMaskId":null,
   "visible":true,

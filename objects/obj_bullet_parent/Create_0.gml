@@ -6,3 +6,4 @@ bullet_hit_ability = function(hit) {}
 bullet_constant_ability = function() {}
 bullet_constant_gun_ability = function() {}
 hitter = obj_player
+piecing = false

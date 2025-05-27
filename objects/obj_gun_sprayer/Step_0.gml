@@ -9,11 +9,13 @@ if !obj_player.dead && cooldown == 0 && pressed && room != rm_home && room != rm
         }
     }
     with created_bullet{
-        dmg *= 0.8
+        dmg *= 0.4
         direction += random_range(-60, 60)
         speed = 7.5
         image_angle = direction
+        image_xscale = 0.75
+        image_yscale = 0.75
         alarm[0] = 22
     }
-    alarm[0] = 2
+    alarm[0] = 1
 }

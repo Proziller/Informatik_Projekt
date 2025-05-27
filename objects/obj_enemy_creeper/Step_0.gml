@@ -1,10 +1,12 @@
 event_inherited();
 if !obj_player.dead{
-    if distance_to_object(obj_player)<20 && !exploded{
+    if distance_to_object(destination)<20 && !exploded{
         sprite_index = spr_explosion
-        obj_player.hp -= 20
+            var list = ds_list_create();
+            ds_list_clear(list);
+            collision_circle_list(x, y, 10000, destination, false, true, list, true);
+            list[| 0].hp -= 20
         exploded = true
-        image_speed = 1
-        audio_play_sound(snd_explosion, 1, false)
     }
 }
+image_speed = 1

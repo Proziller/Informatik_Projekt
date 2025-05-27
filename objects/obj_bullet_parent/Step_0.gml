@@ -7,9 +7,21 @@ bullet_constant_ability()
 
 hit = instance_position(x, y, hitter)
 if hit != noone{
-    hit.hp -= dmg
     
-    bullet_hit_ability(hit);
-    
-    instance_destroy()
+    if object_is_ancestor(hit.object_index, obj_enemy_parent){
+        if !hit.passthrough {
+            if !piecing{ 
+                instance_destroy()
+            }
+            hit.hp -= dmg
+            bullet_hit_ability(hit)
+        }
+    }
+    else {
+        if !piecing{
+            instance_destroy()
+        }
+        hit.hp -= dmg
+        bullet_hit_ability(hit)
+    }
 }

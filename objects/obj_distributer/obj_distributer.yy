@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite16",
-    "path":"sprites/Sprite16/Sprite16.yy",
+    "name":"spr_distributer",
+    "path":"sprites/spr_distributer/spr_distributer.yy",
   },
   "spriteMaskId":null,
   "visible":true,

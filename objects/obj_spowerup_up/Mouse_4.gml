@@ -1,0 +1,2 @@
+SHealth()
+instance_destroy()

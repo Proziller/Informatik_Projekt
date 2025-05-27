@@ -1,4 +1,5 @@
 if !obj_player.dead && cooldown == 0 && pressed && room != rm_home && room != rm_traider {
+    audio_play_sound(snd_gun_shotgun, 1, false)
     for (var i = 0; i < 6; i++) {
         
         var created_bullet = instance_create_depth(x, y, -9, bullet)

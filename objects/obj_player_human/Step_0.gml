@@ -12,3 +12,4 @@ else {
 	 image_speed = 0
 }
 move_and_collide(_hor * sped, _ver * sped, [obj_blockade,obj_border]);
+obj_player.hp = obj_player.maxhp
