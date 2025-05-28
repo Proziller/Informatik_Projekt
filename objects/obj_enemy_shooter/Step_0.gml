@@ -11,13 +11,15 @@ if shoot{
         gun.selected = false
     }
     
-    if distance_to_object(destination) > gun.distance * 0.8 or stunned{
+    if distance_to_object(destination) > gun.distance * 0.75 or stunned{
     	gun.pressed = false
     }
     else  {
         if path_exists(path) {
         	path_delete(path)
         }
+    }
+    if distance_to_object(destination) < gun.distance{
         gun.pressed = true
     }
 }

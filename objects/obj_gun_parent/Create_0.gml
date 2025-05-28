@@ -14,7 +14,7 @@ size = 1
 reloud = 1
 constant_spread = 0
 
-function shoot (count, damage, dgr_offset, selected, bullet_spread, sped, dist, size, constant_spread, reloud){
+function shoot(count, damage, dgr_offset, selected, bullet_spread, sped, dist, size, reloud){
     for (var i = 0; i < count; i++) {
         var created_bullet = instance_create_depth(x, y, -9, bullet)
         if selected {

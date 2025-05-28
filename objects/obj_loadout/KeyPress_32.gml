@@ -9,3 +9,27 @@ var gun = obj_player.gun
 gun.selected = true
 gun.bullet = global.loudout[global.selected_gun][1]
 gun.selected = true
+
+for (var i = 0; i < array_length(global.spowerups_active); i++) {
+	switch global.spowerups_active[i] {
+    	case "damage": 
+            Sbulletdamage()
+        break
+        
+        case "distance":
+            Sbulletdistance()
+        break
+        
+        case "health":
+            Shealth()
+        break
+        
+        case "size":
+            Sbulletsize()
+        break
+        
+        case "spread":
+            Sbulletspread()
+        break
+    }
+}

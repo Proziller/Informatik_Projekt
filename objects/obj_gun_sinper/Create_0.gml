@@ -1,4 +1,5 @@
 event_inherited();
-distance = 4
+
+distance = 400
 damage = 3
 reloud = 90

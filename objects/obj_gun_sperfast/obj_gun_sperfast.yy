@@ -4,13 +4,14 @@
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_gun_sperfast",
   "overriddenProperties":[],
   "parent":{
-    "name":"gun dandelion",
-    "path":"folders/weapons/guns/gun dandelion.yy",
+    "name":"gun superfast",
+    "path":"folders/weapons/guns/gun superfast.yy",
   },
   "parentObjectId":{
     "name":"obj_gun_parent",
