@@ -8,8 +8,8 @@
   "name":"obj_boss_leg",
   "overriddenProperties":[],
   "parent":{
-    "name":"boss",
-    "path":"folders/boss.yy",
+    "name":"leg",
+    "path":"folders/boss/leg.yy",
   },
   "parentObjectId":null,
   "persistent":false,

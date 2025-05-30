@@ -23,3 +23,13 @@ if shoot{
         gun.pressed = true
     }
 }
+with gun {
+    image_angle = point_direction(x, y, obj_player.x, obj_player.y);
+    if image_angle < 90 or image_angle > 270{
+        image_yscale = 1.5
+    }
+    else {
+        image_yscale = -1.5
+    }
+    image_xscale = 1.5
+}

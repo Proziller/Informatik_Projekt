@@ -9,3 +9,4 @@ path = path_add()
 stunned = false
 destination = obj_player
 passthrough = false
+stun_timer = false

@@ -14,4 +14,5 @@ dash_cooldown = false
 bleed = 5
 freezing = false
 stunned = false
+stun_timer = false
 global.new_game = true

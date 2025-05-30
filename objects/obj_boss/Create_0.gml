@@ -1,4 +1,4 @@
-event_inherited();
+event_inherited()
 
 body = instance_create_depth(x,y,depth,obj_boss_body)
 body.visible = false

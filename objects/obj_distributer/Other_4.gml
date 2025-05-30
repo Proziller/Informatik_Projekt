@@ -1,6 +1,6 @@
 var blockades = obj_vars.blockades
 if room == rm_arena_boss{
-    blockades = 5
+    blockades = 25
 }
 for (var i = 0; i < blockades; i++) {
     x = round(random(room_width/32))*32

@@ -10,8 +10,8 @@
   "name":"obj_boss_arm",
   "overriddenProperties":[],
   "parent":{
-    "name":"boss",
-    "path":"folders/boss.yy",
+    "name":"arm",
+    "path":"folders/boss/arm.yy",
   },
   "parentObjectId":null,
   "persistent":false,

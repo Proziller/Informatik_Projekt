@@ -11,27 +11,4 @@ damage = 1
 sped = 10
 dist = 60
 size = 1
-reloud = 1
-
-function shoot(count, damage, dgr_offset, selected, bullet_spread, sped, dist, size, reloud){
-    for (var i = 0; i < count; i++) {
-        var created_bullet = instance_create_depth(x, y, -9, bullet)
-        if selected {
-            with created_bullet{
-                hitter = [obj_enemy_parent, obj_boss]
-                direction = point_direction(x, y, mouse_x, mouse_y)
-            }
-        }
-        with created_bullet{
-            dmg *= damage
-            direction += (i*dgr_offset) - ((count * dgr_offset) / 2) + dgr_offset / 2 + spread(bullet_spread)
-            speed = sped
-            image_angle = direction
-            alarm[0] = dist
-            image_xscale = size
-            image_yscale = size
-        }
-        cooldown = 1
-        alarm[0] = reloud
-    }
-}
+bullet = 1

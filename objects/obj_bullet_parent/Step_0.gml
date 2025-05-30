@@ -1,5 +1,13 @@
-if x < 0 or y < 0 or x > room_width or y > room_height or position_meeting(x, y, obj_blockade){
-    instance_destroy()
+var _stepSpd = sprite_width / move_spd
+var _stepCount = move_spd / _stepSpd
+
+repeat(_stepCount){ 
+    x += lengthdir_x(_stepSpd, move_dir);
+    y += lengthdir_y(_stepSpd, move_dir);
+    
+    if x < 0 or y < 0 or x > room_width or y > room_height or place_meeting(x, y, obj_blockade){
+        instance_destroy()
+    }
 }
 
 bullet_constant_gun_ability()

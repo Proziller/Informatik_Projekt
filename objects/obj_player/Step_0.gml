@@ -69,3 +69,4 @@ if !dead && room != rm_home{
 if dead{
     room_goto(rm_home)
 }
+show_debug_message(point_direction(x,y,mouse_x,mouse_y))
