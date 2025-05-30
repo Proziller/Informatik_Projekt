@@ -6,8 +6,8 @@
   "name":"obj_spawnprot",
   "overriddenProperties":[],
   "parent":{
-    "name":"player",
-    "path":"folders/player.yy",
+    "name":"room generation",
+    "path":"folders/room generation.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -1,3 +1,7 @@
-array_push(global.spowerups_active, pwerup)
+if pwerup == "health"{
+}
+else {
+    array_push(global.spowerups_active, pwerup)
+}
 instance_destroy()
 instance_destroy(obj_spowerup_up)

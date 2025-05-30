@@ -1,12 +1,8 @@
 audio_stop_all()
-show_debug_message(global.traider)
-if room == rm_arena{
+if global.fight < 5 {
     room_goto(rm_arena)
-    if global.traider = 5{
-        room_goto(rm_traider)
-        global.traider = 1
-    }
+    global.fight += 1
 }
-if room == rm_traider{
-    room_goto(rm_arena)
+else {
+    room_goto(rm_arena_boss)
 }

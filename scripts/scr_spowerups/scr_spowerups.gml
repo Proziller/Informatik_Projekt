@@ -1,17 +1,20 @@
-global.spowerups = ["damage", "distance", "health", "bulletsize", "spread"]
+global.spowerups = ["damage", "distance", "health", "bulletsize", "spread", "speed"]
 global.spowerups_active = []
-function Shealth(){
+function Splayer_health(){
     obj_player.hp += 10
 }
-function Sbulletdistance(){
+function Splayer_speed(){
+    obj_player.sped *= 1.2
+}
+function Sbullet_distance(){
     obj_player.gun.dist *= 1.2
 }
-function Sbulletdamage(){
+function Sbullet_damage(){
     obj_player.gun.damage *= 1.2
 }
-function Sbulletspread(){
+function Sbullet_spread(){
     obj_player.gun.bullet_spread *= 0.5
 }
-function Sbulletsize(){
+function Sbullet_size(){
     obj_player.gun.size *= 1.2
 }

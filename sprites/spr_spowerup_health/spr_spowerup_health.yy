@@ -1,8 +1,8 @@
 {
   "$GMSprite":"",
   "%Name":"spr_spowerup_health",
-  "bboxMode":0,
-  "bbox_bottom":12,
+  "bboxMode":1,
+  "bbox_bottom":15,
   "bbox_left":0,
   "bbox_right":15,
   "bbox_top":0,

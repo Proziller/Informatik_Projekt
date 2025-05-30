@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"player",
-    "path":"folders/player.yy",
+    "name":"room generation",
+    "path":"folders/room generation.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -12,14 +12,13 @@ sped = 10
 dist = 60
 size = 1
 reloud = 1
-constant_spread = 0
 
 function shoot(count, damage, dgr_offset, selected, bullet_spread, sped, dist, size, reloud){
     for (var i = 0; i < count; i++) {
         var created_bullet = instance_create_depth(x, y, -9, bullet)
         if selected {
             with created_bullet{
-                hitter = obj_enemy_parent
+                hitter = [obj_enemy_parent, obj_boss]
                 direction = point_direction(x, y, mouse_x, mouse_y)
             }
         }

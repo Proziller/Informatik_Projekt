@@ -13,23 +13,19 @@ gun.selected = true
 for (var i = 0; i < array_length(global.spowerups_active); i++) {
 	switch global.spowerups_active[i] {
     	case "damage": 
-            Sbulletdamage()
+            Sbullet_damage()
         break
         
         case "distance":
-            Sbulletdistance()
-        break
-        
-        case "health":
-            Shealth()
+            Sbullet_distance()
         break
         
         case "size":
-            Sbulletsize()
+            Sbullet_size()
         break
         
         case "spread":
-            Sbulletspread()
+            Sbullet_spread()
         break
     }
 }
