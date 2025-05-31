@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_spowerup_up",
+  "%Name":"obj_boss_attack_wall",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_spowerup_up",
+  "name":"obj_boss_attack_wall",
   "overriddenProperties":[],
   "parent":{
-    "name":"traider",
-    "path":"folders/rooms/traider.yy",
+    "name":"arm",
+    "path":"folders/boss/arm.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_spowerup_health",
-    "path":"sprites/spr_spowerup_health/spr_spowerup_health.yy",
+    "name":"spr_boss_attack_wall",
+    "path":"sprites/spr_boss_attack_wall/spr_boss_attack_wall.yy",
   },
   "spriteMaskId":null,
   "visible":true,
