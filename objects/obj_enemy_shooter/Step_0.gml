@@ -1,5 +1,5 @@
 event_inherited();
-if shoot{
+if shootin && !stunned{
     gun.hitter = destination
     gun.x = x
     gun.y = y
@@ -11,7 +11,7 @@ if shoot{
         gun.selected = false
     }
     
-    if distance_to_object(destination) > gun.distance * 0.75 or stunned{
+    if distance_to_object(destination) > gun.distance * 0.75{
     	gun.pressed = false
     }
     else  {

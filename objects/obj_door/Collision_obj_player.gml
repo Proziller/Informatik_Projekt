@@ -1,7 +1,7 @@
 audio_stop_all()
 switch room {
     case rm_arena:
-        if global.fight < 5{
+        if global.traider < 5{
             room_goto(rm_arena)
         }
         else {
@@ -11,9 +11,11 @@ switch room {
     
     case rm_arena_boss:
         room_goto(rm_traider)
+        global.round += 1
 	break
     
     case rm_traider:
         room_goto(rm_arena)
     break
 }
+show_debug_message("-")

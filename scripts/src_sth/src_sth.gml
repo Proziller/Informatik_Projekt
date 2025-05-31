@@ -1,10 +1,11 @@
 function spread(ammount){
     return random_range(-1,1) * ammount
 }
-global.loudout = [[obj_gun_semiauto, obj_bullet_bleeding], [ obj_gun_sprayer, obj_bullet_freezing], [obj_gun_sinper, obj_bullet_calorene_dense]]
+global.loudout = [[obj_gun_semiauto, obj_bullet_arial], [ obj_gun_sprayer, obj_bullet_freezing], [obj_gun_sinper, obj_bullet_calorene_dense]]
 global.selected_gun = 0
-global.fight = 1
+global.fight = 0
 global.traider = 0
+global.round = 1
 
 function shoot(count, damage, dgr_offset, selected, bullet_spread, sped, dist, size, reloud, bullet, instance){
     for (var i = 0; i < count; i++) {
@@ -31,10 +32,10 @@ function shoot(count, damage, dgr_offset, selected, bullet_spread, sped, dist, s
             move_dir = image_angle
             move_spd = sped
             alarm[0] = dist
-            image_xscale = size
-            image_yscale = size
+            image_xscale *= size
+            image_yscale *= size
         }
-        instance.cooldown = 1
+        instance.cooldown = true
         instance.alarm[0] = reloud
     }
 }

@@ -1,2 +1,2 @@
-cooldown = 0
+cooldown = false
 peng_peng = 3

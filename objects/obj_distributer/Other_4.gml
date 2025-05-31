@@ -14,7 +14,7 @@ for (var i = 0; i < blockades; i++) {
 }
 
 if room != rm_arena_boss{
-    var enemies = round(10-power(0.9, global.fight - 22))
+    var enemies = global.round
     obj_vars.enemies_alive = enemies + 1
     for (var i = 0; i < enemies; i++) {
         x = round(random_range(32, room_width - 64))
