@@ -13,7 +13,7 @@ repeat(_stepCount){
 bullet_constant_gun_ability()
 bullet_constant_ability()
 
-hit = instance_position(x, y, hitter)
+hit = instance_place(x, y, hitter)
 if hit != noone{
     
     if object_is_ancestor(hit.object_index, obj_enemy_parent){
