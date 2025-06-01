@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.1232653,
+  "duration":0.81068027,
   "name":"snd_dash_swosh",
   "parent":{
     "name":"player",

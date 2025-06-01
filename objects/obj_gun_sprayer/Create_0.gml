@@ -1,6 +1,6 @@
 event_inherited();
 
-distance = 100
+distance = 50
 dist = 20
 sped = 5
 bullet_spread = 40

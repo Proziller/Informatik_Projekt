@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"snd_gun_notSoAuto",
+  "%Name":"snd_gun_parrable",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,17 +9,17 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.13061224,
-  "name":"snd_gun_notSoAuto",
+  "duration":0.20990929,
+  "name":"snd_gun_parrable",
   "parent":{
-    "name":"guns",
-    "path":"folders/weapons/guns.yy",
+    "name":"gun parrable",
+    "path":"folders/weapons/guns/gun parrable.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_gun_notSoAuto.mp3",
+  "soundFile":"snd_gun_parrable.mp3",
   "type":0,
-  "volume":0.5,
+  "volume":1.0,
 }

@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_gun_big",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":1.2463266,
+  "name":"snd_gun_big",
+  "parent":{
+    "name":"gun BIG",
+    "path":"folders/weapons/guns/gun BIG.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_gun_big.mp3",
+  "type":0,
+  "volume":1.0,
+}

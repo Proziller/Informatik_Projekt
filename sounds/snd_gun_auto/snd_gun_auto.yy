@@ -9,11 +9,11 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.13061224,
+  "duration":0.2559864,
   "name":"snd_gun_auto",
   "parent":{
-    "name":"guns",
-    "path":"folders/weapons/guns.yy",
+    "name":"gun auto",
+    "path":"folders/weapons/guns/gun auto.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"snd_gun_auto.mp3",
   "type":0,
-  "volume":0.5,
+  "volume":1.0,
 }

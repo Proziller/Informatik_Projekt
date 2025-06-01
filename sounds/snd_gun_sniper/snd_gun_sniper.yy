@@ -9,11 +9,11 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":2.616009,
+  "duration":1.6457143,
   "name":"snd_gun_sniper",
   "parent":{
-    "name":"guns",
-    "path":"folders/weapons/guns.yy",
+    "name":"gun sniper",
+    "path":"folders/weapons/guns/gun sniper.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"snd_gun_sniper.mp3",
   "type":0,
-  "volume":0.5,
+  "volume":1.0,
 }

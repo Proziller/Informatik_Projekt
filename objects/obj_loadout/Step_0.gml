@@ -17,7 +17,7 @@ switch room {
     break
 }
 
-switch (global.selected_gun) {
+switch global.selected_gun {
 	case 0:
         sprite_index = spr_layout_select_1
     break
@@ -58,4 +58,8 @@ if instance_exists(obj_loadout_1) && instance_exists(obj_loadout_2) && instance_
     
     obj_loadout_3.sprite_index = global.loudout[2][0].sprite_index
     obj_loadout_bullet_3.sprite_index = global.loudout[2][1].sprite_index
+}
+
+if obj_player.gun.object_index != global.loudout[global.selected_gun][0]{
+    switch_gun(global.selected_gun)
 }

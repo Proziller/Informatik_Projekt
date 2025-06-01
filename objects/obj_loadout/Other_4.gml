@@ -1,0 +1,2 @@
+
+switch_gun(0)

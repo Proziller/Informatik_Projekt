@@ -1,7 +1,6 @@
-audio_stop_all()
 switch room {
     case rm_arena:
-        if global.traider < 5{
+        if global.traider < 3{
             room_goto(rm_arena)
         }
         else {
@@ -18,4 +17,3 @@ switch room {
         room_goto(rm_arena)
     break
 }
-show_debug_message("-")

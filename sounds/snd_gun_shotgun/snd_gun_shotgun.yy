@@ -9,11 +9,11 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.9680046,
+  "duration":1.6457143,
   "name":"snd_gun_shotgun",
   "parent":{
-    "name":"guns",
-    "path":"folders/weapons/guns.yy",
+    "name":"gun shotgun",
+    "path":"folders/weapons/guns/gun shotgun.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"snd_gun_shotgun.mp3",
   "type":0,
-  "volume":0.5,
+  "volume":1.0,
 }
