@@ -1,5 +1,6 @@
 if hp < 1 && !dying{
     sprite_index = spr_explosion
+    path_end()
     dying = true
 }
 

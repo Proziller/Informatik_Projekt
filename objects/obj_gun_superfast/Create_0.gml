@@ -1,7 +1,7 @@
 event_inherited();
 
-distance = 275
-damage = 2
-sped = 20
-reloud = 90
-dist = 15
+enemyStandDistance = 275
+bulletDamage = 2
+bulletSpeed = 20
+gunReload = 90
+bulletDist = 15

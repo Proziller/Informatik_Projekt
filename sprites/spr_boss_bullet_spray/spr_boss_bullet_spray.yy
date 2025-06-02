@@ -29,8 +29,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"arm",
-    "path":"folders/boss/arm.yy",
+    "name":"bullets",
+    "path":"folders/boss/arm/bullets.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

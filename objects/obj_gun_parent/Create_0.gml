@@ -1,14 +1,19 @@
 selected = false
+
 bullet = obj_bullet_arial
-depth = -10
+
 cooldown = 0
 pressed = false
-distance = 200
-count = 1
-dgr_offset = 0
-bullet_spread = 0
-damage = 1
-sped = 10
-dist = 60
-size = 1
-bullet = 1
+
+enemyStandDistance = 200
+
+gunReload = 0
+
+blletCount = 1
+bulletDgrOffset = 0
+bulletSpread = 0
+bulletDamage = 1
+bulletSpeed = 10
+bulletDist = 60
+bulletSize = 1
+depth = -10

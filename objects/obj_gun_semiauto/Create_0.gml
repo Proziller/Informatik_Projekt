@@ -1,7 +1,8 @@
 event_inherited();
 
-bullet_spread = 3
-damage = 0.75
-dist = 25
-reloud = 8
+enemyStandDistance = 200
+gunReload = 8
+bulletDamage = 0.75
+bulletSpread = 3
+bulletDist = 25
 peng_peng = 0

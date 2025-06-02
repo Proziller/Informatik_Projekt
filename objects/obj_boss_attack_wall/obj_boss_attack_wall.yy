@@ -9,8 +9,8 @@
   "name":"obj_boss_attack_wall",
   "overriddenProperties":[],
   "parent":{
-    "name":"arm",
-    "path":"folders/boss/arm.yy",
+    "name":"bullets",
+    "path":"folders/boss/arm/bullets.yy",
   },
   "parentObjectId":null,
   "persistent":false,

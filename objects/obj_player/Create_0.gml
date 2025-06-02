@@ -1,4 +1,4 @@
-speed_original = 3
+speed_original = 4
 player_speed = speed_original
 keys_pressed = 0
 body = instance_create_depth(x,y,-2,obj_player_body)
@@ -7,7 +7,7 @@ wheels = instance_create_depth(x,y,-1,obj_player_wheels)
 gun = instance_create_depth(obj_player.x,obj_player.y,depth-1,global.loudout[global.selected_gun][0])
 gun.selected = true
 gun.bullet = global.loudout[global.selected_gun][1]
-maxhp = 30
+maxhp = 40
 hp = maxhp
 dead = false
 dash_cooldown = false
