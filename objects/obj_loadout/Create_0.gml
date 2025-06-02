@@ -17,22 +17,18 @@ function switch_gun(num){
         switch global.spowerups_active[i] {
             case "damage":
                 Sbullet_damage()
-                show_debug_message("damage")
             break
             
             case "distance":
                 Sbullet_distance()
-                show_debug_message("distance")
             break
             
             case "bulletsize":
                 Sbullet_size()
-                show_debug_message("size")
             break
             
             case "spread":
                 Sbullet_spread()
-                show_debug_message("spread")
             break
         }
     }

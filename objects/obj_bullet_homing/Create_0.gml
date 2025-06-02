@@ -1,4 +1,4 @@
-event_inherited();
+event_inherited()
 
 bullet_constant_ability = function(targetHit) {
     
@@ -6,7 +6,7 @@ bullet_constant_ability = function(targetHit) {
     ds_list_clear(list);
     var num = collision_circle_list(x, y, 15 * image_xscale, hitter, false, false, list, true);
     if num > 0{
-        move_towards_point(list[| 0].x, list[| 0].y, speed)
+        move_towards_point(list[| 0].x, list[| 0].y, move_spd)
     }
     
     ds_list_destroy(list);

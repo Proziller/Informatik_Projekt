@@ -1,3 +1,3 @@
 if freezing{
-    sped /= 2
+    player_speed /= 2
 }

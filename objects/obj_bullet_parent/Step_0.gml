@@ -21,7 +21,10 @@ if hit != noone{
             if !piecing{ 
                 instance_destroy()
             }
-            hit.hp -= dmg
+            if !array_contains(hitted, hit){
+                hit.hp -= dmg
+                array_push(hitted, hit)
+            }
             bullet_hit_ability(hit)
         }
     }

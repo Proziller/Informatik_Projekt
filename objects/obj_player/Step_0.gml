@@ -22,17 +22,17 @@ if !dead && room != rm_home{
         }
         
         if array_contains(nonos, _hor) && array_contains(nonos, _ver){
-            sped = sqrt(sqr(player_speed_original)/2)
+            player_speed = sqrt(sqr(speed_original)/2)
         }
         
         else { 
-            sped = player_speed_original;
+            player_speed = speed_original;
         }
         
         if freezing{
-            sped /= 2
+            player_speed /= 2
         }
-        move_and_collide(_hor * sped, _ver * sped, [obj_blockade, obj_border])
+        move_and_collide(_hor * player_speed, _ver * player_speed, [obj_blockade, obj_border])
     }
     
     //having all parts moving

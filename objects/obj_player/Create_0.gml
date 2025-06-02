@@ -1,5 +1,5 @@
-player_speed_original = 3
-sped = player_speed_original
+speed_original = 3
+player_speed = speed_original
 keys_pressed = 0
 body = instance_create_depth(x,y,-2,obj_player_body)
 grabber = instance_create_depth(x,y,-3,obj_player_grabber)

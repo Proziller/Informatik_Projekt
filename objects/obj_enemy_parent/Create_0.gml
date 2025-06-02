@@ -1,12 +1,16 @@
 enemies = [obj_enemy_creeper, obj_enemy_shooter]
+
 sped = 1
 speedy = 1
+
 alarm[0] = 90
+
 freezing = false
 dying = false
 bleed = 5
-path = path_add()
 stunned = false
-destination = obj_player
-passthrough = false
 stun_timer = false
+passthrough = false
+
+path = path_add()
+destination = obj_player

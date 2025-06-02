@@ -5,4 +5,3 @@ damage = 0.75
 dist = 25
 reloud = 8
 peng_peng = 0
-cooldown = true
