@@ -1,6 +1,9 @@
-event_inherited();
+event_inherited()
 
+//assigning the stand distance
 enemyStandDistance = 200
+
+//assigning the bullet varibles
 gunReload = 40
 blletCount = 24
 bulletDgrOffset = 20

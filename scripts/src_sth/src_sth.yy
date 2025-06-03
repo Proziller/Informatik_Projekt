@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"src_sth",
   "parent":{
-    "name":"Informatik_Projekt",
-    "path":"Informatik_Projekt.yyp",
+    "name":"scipts",
+    "path":"folders/scipts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

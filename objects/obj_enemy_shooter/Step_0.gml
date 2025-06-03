@@ -1,6 +1,5 @@
-event_inherited();
+event_inherited()
 if shootin && !stunned{
-    gun.hitter = destination
     gun.x = x
     gun.y = y
     
@@ -11,7 +10,7 @@ if shootin && !stunned{
         gun.selected = false
     }
     
-    if distance_to_object(destination) > gun.distance * 0.75{
+    if distance_to_object(destination) > gun.enemyStandDistance * 0.75{
     	gun.pressed = false
     }
     else  {
@@ -19,12 +18,13 @@ if shootin && !stunned{
         	path_delete(path)
         }
     }
-    if distance_to_object(destination) < gun.distance{
+    if distance_to_object(destination) < gun.enemyStandDistance{
         gun.pressed = true
     }
 }
+var dest = destination
 with gun {
-    image_angle = point_direction(x, y, obj_player.x, obj_player.y);
+    image_angle = point_direction(x, y, dest.x, dest.y)
     if image_angle < 90 or image_angle > 270{
         image_yscale = 1.5
     }

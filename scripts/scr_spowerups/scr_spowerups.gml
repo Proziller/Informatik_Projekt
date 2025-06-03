@@ -7,14 +7,14 @@ function Splayer_speed(){
     obj_player.player_speed_original *= 1.2
 }
 function Sbullet_distance(){
-    obj_player.gun.dist *= 1.2
+    obj_player.gun.bulletDist *= 1.2
 }
 function Sbullet_damage(){
-    obj_player.gun.damage *= 1.1
+    obj_player.gun.bulletDamage *= 1.1
 }
 function Sbullet_spread(){
-    obj_player.gun.bullet_spread *= 0.5
+    obj_player.gun.bulletSpread *= 0.5
 }
 function Sbullet_size(){
-    obj_player.gun.size *= 1.5
+    obj_player.gun.bulletSize *= 1.5
 }

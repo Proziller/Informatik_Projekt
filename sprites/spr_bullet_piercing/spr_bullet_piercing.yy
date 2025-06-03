@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"spr_bullet_piecing",
+  "%Name":"spr_bullet_piercing",
   "bboxMode":0,
   "bbox_bottom":2,
   "bbox_left":0,
@@ -21,19 +21,19 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"0dffbfa8-8ccd-4948-bda0-09f0be1b8251","blendMode":0,"displayName":"default","isLocked":false,"name":"0dffbfa8-8ccd-4948-bda0-09f0be1b8251","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_bullet_piecing",
+  "name":"spr_bullet_piercing",
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"bullet piecing",
-    "path":"folders/weapons/bullets/bullet piecing.yy",
+    "name":"bullet piercing",
+    "path":"folders/weapons/bullets/bullet piercing.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_bullet_piecing",
+    "%Name":"spr_bullet_piercing",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_bullet_piecing",
+    "name":"spr_bullet_piercing",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -71,7 +71,7 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1a8817b2-17c2-424b-a896-cf7b5c7994b1","path":"sprites/spr_bullet_piecing/spr_bullet_piecing.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1a8817b2-17c2-424b-a896-cf7b5c7994b1","path":"sprites/spr_bullet_piercing/spr_bullet_piercing.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"252eb392-d225-4c56-a3c0-edcecd666581","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],

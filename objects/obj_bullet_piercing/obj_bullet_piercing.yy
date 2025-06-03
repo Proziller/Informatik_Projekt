@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_bullet_piecing",
+  "%Name":"obj_bullet_piercing",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_bullet_piecing",
+  "name":"obj_bullet_piercing",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_bullet_parent","path":"objects/obj_bullet_parent/obj_bullet_parent.yy",},"propertyId":{"name":"dmg","path":"objects/obj_bullet_parent/obj_bullet_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
   ],
   "parent":{
-    "name":"bullet piecing",
-    "path":"folders/weapons/bullets/bullet piecing.yy",
+    "name":"bullet piercing",
+    "path":"folders/weapons/bullets/bullet piercing.yy",
   },
   "parentObjectId":{
     "name":"obj_bullet_parent",
@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_bullet_piecing",
-    "path":"sprites/spr_bullet_piecing/spr_bullet_piecing.yy",
+    "name":"spr_bullet_piercing",
+    "path":"sprites/spr_bullet_piercing/spr_bullet_piercing.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,6 +1,9 @@
+//shoot and play the sound, when the player isn't dead, the cooldown isn't active, the bullet is activated
 if !obj_player.dead && !cooldown && pressed && room != rm_home && room != rm_traider {
     
     audio_play_sound(snd_gun_parrable, 1, false)
+    //creating a circular shooting pattern
     shoot(blletCount, bulletDamage, bulletDgrOffset, selected, bulletSpread, bulletSpeed, bulletDist, bulletSize, gunReload, bullet, self)
+    //creating a single bigger bullet, that flies longer and is bigger
     shoot(1, 1.5, 0, selected, 0, 10, 20, 1.5, gunReload, bullet, self)
 }

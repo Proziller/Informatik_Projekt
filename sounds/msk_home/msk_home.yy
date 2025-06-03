@@ -12,8 +12,8 @@
   "duration":12.826122,
   "name":"msk_home",
   "parent":{
-    "name":"Informatik_Projekt",
-    "path":"Informatik_Projekt.yyp",
+    "name":"musik",
+    "path":"folders/musik.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

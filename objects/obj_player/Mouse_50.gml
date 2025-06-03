@@ -1,1 +1,3 @@
-gun.pressed = true
+if !stunned{
+    gun.pressed = true
+}

@@ -6,19 +6,19 @@ if !dead && room != rm_home{
     
     //movement
     if !stunned{
-        var _hor = keyboard_check(ord("D")) - keyboard_check(ord("A"));
-        var _ver = keyboard_check(ord("S")) - keyboard_check(ord("W"));
+        var _hor = keyboard_check(ord("D")) - keyboard_check(ord("A"))
+        var _ver = keyboard_check(ord("S")) - keyboard_check(ord("W"))
         
-        var nonos = [-1, 1];
+        var nonos = [-1, 1]
         
         if _hor + _ver == 1{
-            if (_ver == 1) wheels.sprite_index = spr_player_wheels_front1;
-            else wheels.sprite_index = spr_player_wheels_sides1;
+            if (_ver == 1) wheels.sprite_index = spr_player_wheels_front1
+            else wheels.sprite_index = spr_player_wheels_sides1
         }
         
         if _hor + _ver == -1{
-            if (_ver == -1) wheels.sprite_index = spr_player_wheels_front1;
-            else wheels.sprite_index = spr_player_wheels_sides1;
+            if (_ver == -1) wheels.sprite_index = spr_player_wheels_front1
+            else wheels.sprite_index = spr_player_wheels_sides1
         }
         
         if array_contains(nonos, _hor) && array_contains(nonos, _ver){
@@ -26,7 +26,7 @@ if !dead && room != rm_home{
         }
         
         else { 
-            player_speed = speed_original;
+            player_speed = speed_original
         }
         
         if freezing{
@@ -46,7 +46,7 @@ if !dead && room != rm_home{
     gun.y = y-14
     
     with gun {
-        image_angle = point_direction(x, y, mouse_x, mouse_y);
+        image_angle = point_direction(x, y, mouse_x, mouse_y)
         if image_angle < 90 or image_angle > 270{
             image_yscale = 1.5
         }

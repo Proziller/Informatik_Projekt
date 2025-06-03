@@ -9,8 +9,8 @@
   "name":"obj_grid_setup",
   "overriddenProperties":[],
   "parent":{
-    "name":"Informatik_Projekt",
-    "path":"Informatik_Projekt.yyp",
+    "name":"objects",
+    "path":"folders/objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

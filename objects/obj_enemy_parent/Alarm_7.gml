@@ -1,1 +1,1 @@
-stun_timer = true
+stunCooldown = false

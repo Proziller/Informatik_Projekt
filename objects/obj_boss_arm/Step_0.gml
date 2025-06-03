@@ -1,11 +1,11 @@
 if !cooldown {
     switch arm {
     	case spr_boss_arm_spray:
-            shoot(1, 1, 0, false, 6, 10, 30, 1, 10, obj_boss_bullet_spray, self)
+            shoot(1, 1, 0, false, 6, 5, 30, 1, 10, obj_boss_bullet_spray, self)
         break
         
         case spr_boss_arm_circle:
-            shoot(36, 0.8, 10, false, 0, 5, 45, 1, 120, obj_boss_bullet_circle, self)
+            shoot(36, 0.8, 10, false, 0, 2.5, 45, 1, 120, obj_boss_bullet_circle, self)
         break
         
         case spr_boss_arm_wall:

@@ -1,19 +1,31 @@
+//=======================creating gun related vars=======================
 selected = false
 
 bullet = obj_bullet_arial
 
 cooldown = 0
+//var for checking wheather the gun shall shoot
 pressed = false
-
-enemyStandDistance = 200
 
 gunReload = 0
 
-blletCount = 1
-bulletDgrOffset = 0
-bulletSpread = 0
-bulletDamage = 1
-bulletSpeed = 10
-bulletDist = 60
-bulletSize = 1
 depth = -10
+
+//=======================creating bullet related vars and assigning standards=======================
+//how many bullets
+blletCount = 1
+//the offset between the bullets in degree
+bulletDgrOffset = 0
+//the bullets spread
+bulletSpread = 0
+//damage multiplyer
+bulletDamage = 1
+//bullet speed
+bulletSpeed = 10
+//the distance the bullet flies in seconds
+bulletDist = 60
+//size multiplyer
+bulletSize = 1
+
+//enemyStandDistance is the distance to the player the enemy stops to wanlk
+enemyStandDistance = 200

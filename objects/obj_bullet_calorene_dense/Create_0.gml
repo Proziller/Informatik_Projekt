@@ -1,12 +1,9 @@
 // Inherit the parent event
-event_inherited();
+event_inherited()
 
 bullet_hit_ability = function(target_hit){
-    target_hit.image_xscale = 2
-    target_hit.image_yscale = 2
-    if target_hit == obj_player{
-        target_hit.image_xscale = 2
-        target_hit.image_yscale = 2
-    }
+    //making the target 1.5 times bigger
+    target_hit.image_xscale = 1.5
+    target_hit.image_yscale = 1.5
     target_hit.alarm[5] = 120
 }

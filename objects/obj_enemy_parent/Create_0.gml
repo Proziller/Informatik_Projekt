@@ -9,7 +9,7 @@ freezing = false
 dying = false
 bleed = 5
 stunned = false
-stun_timer = false
+stunCooldown = false
 passthrough = false
 
 path = path_add()

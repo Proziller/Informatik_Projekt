@@ -9,7 +9,10 @@
     "name":"loadout",
     "path":"folders/UI/loadout.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_loadout_1",
+    "path":"objects/obj_loadout_1/obj_loadout_1.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

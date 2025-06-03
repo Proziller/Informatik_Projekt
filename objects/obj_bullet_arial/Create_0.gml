@@ -1,18 +1,18 @@
-// Inherit the parent event
-event_inherited();
+event_inherited()
 
 bullet_hit_ability = function(targetHit) {
     
-    sprite_index = spr_bullet_arial_explosion
-    speed = 0
+    //creating a list
+    list = ds_list_create()
+    ds_list_clear(list)
     
-    list = ds_list_create();
-    ds_list_clear(list);
-    var num = instance_place_list(x, y, hitter, list, false);
-    
-    for (var i = 0; i < num; i++) {
-        list[| i].hp -= dmg;
+    //listing all targets of the bullet in a circle in the list by distance and storing the ammount in num
+    var num = collision_circle_list(x, y, 15 * image_xscale, bulletTarget, false, false, list, true)
+    //if the list has content, move toword the closest target
+    for (var i = 0; i < num; i++) { 
+        list[| i].hp -= dmg
     }
+
     
-    ds_list_destroy(list);
+    ds_list_destroy(list)
 }

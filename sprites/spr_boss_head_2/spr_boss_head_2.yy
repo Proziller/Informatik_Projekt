@@ -23,7 +23,7 @@
   ],
   "name":"spr_boss_head_2",
   "nineSlice":null,
-  "origin":4,
+  "origin":7,
   "parent":{
     "name":"head",
     "path":"folders/boss/head.yy",
@@ -78,7 +78,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":9,
-    "yorigin":9,
+    "yorigin":18,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

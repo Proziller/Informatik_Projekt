@@ -1,0 +1,1 @@
+switch_gun(global.selected_gun)
