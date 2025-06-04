@@ -70,7 +70,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.1.193",
+    "IDEVersion":"2024.13.0.190",
   },
   "name":"Informatik_Projekt",
   "resources":[
@@ -120,6 +120,9 @@
     {"id":{"name":"obj_gunDisplay_bullet_up","path":"objects/obj_gunDisplay_bullet_up/obj_gunDisplay_bullet_up.yy",},},
     {"id":{"name":"obj_gunDisplay_down","path":"objects/obj_gunDisplay_down/obj_gunDisplay_down.yy",},},
     {"id":{"name":"obj_gunDisplay_up","path":"objects/obj_gunDisplay_up/obj_gunDisplay_up.yy",},},
+    {"id":{"name":"obj_hitbox_1","path":"objects/obj_hitbox_1/obj_hitbox_1.yy",},},
+    {"id":{"name":"obj_hitbox_2","path":"objects/obj_hitbox_2/obj_hitbox_2.yy",},},
+    {"id":{"name":"obj_hitbox_3","path":"objects/obj_hitbox_3/obj_hitbox_3.yy",},},
     {"id":{"name":"obj_loadout_1","path":"objects/obj_loadout_1/obj_loadout_1.yy",},},
     {"id":{"name":"obj_loadout_2","path":"objects/obj_loadout_2/obj_loadout_2.yy",},},
     {"id":{"name":"obj_loadout_3","path":"objects/obj_loadout_3/obj_loadout_3.yy",},},
@@ -207,6 +210,7 @@
     {"id":{"name":"spr_gun_sniper","path":"sprites/spr_gun_sniper/spr_gun_sniper.yy",},},
     {"id":{"name":"spr_gun_sprayer","path":"sprites/spr_gun_sprayer/spr_gun_sprayer.yy",},},
     {"id":{"name":"spr_gun_superfast","path":"sprites/spr_gun_superfast/spr_gun_superfast.yy",},},
+    {"id":{"name":"spr_hitbox","path":"sprites/spr_hitbox/spr_hitbox.yy",},},
     {"id":{"name":"spr_home_tileset","path":"sprites/spr_home_tileset/spr_home_tileset.yy",},},
     {"id":{"name":"spr_layout_select_1","path":"sprites/spr_layout_select_1/spr_layout_select_1.yy",},},
     {"id":{"name":"spr_layout_select_2","path":"sprites/spr_layout_select_2/spr_layout_select_2.yy",},},
@@ -234,8 +238,8 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_home","path":"rooms/rm_home/rm_home.yy",},},
     {"roomId":{"name":"rm_arena","path":"rooms/rm_arena/rm_arena.yy",},},
-    {"roomId":{"name":"rm_traider","path":"rooms/rm_traider/rm_traider.yy",},},
     {"roomId":{"name":"rm_arena_boss","path":"rooms/rm_arena_boss/rm_arena_boss.yy",},},
+    {"roomId":{"name":"rm_traider","path":"rooms/rm_traider/rm_traider.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

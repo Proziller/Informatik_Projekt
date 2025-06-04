@@ -1,18 +1,41 @@
+//the function to switch the gun
 function switch_gun(num){
-    var cooldown = obj_player.gun.alarm[0]
+    
+    //destroy the players gun
     instance_destroy(obj_player.gun)
-    obj_player.gun = instance_create_depth(obj_player.x,obj_player.y,depth-1,global.loudout[num][0])
+    //creating the new gun, that is in global.loadout[num][0]
+    obj_player.gun = instance_create_depth(obj_player.x,obj_player.y,depth-1,global.loadout[num][0])
+    
+    //making it, so the player can't shoot straight away when switching
     if obj_player.gun.gunReload > 1{
         obj_player.gun.alarm[0] = round(obj_player.gun.gunReload / 2)
         obj_player.gun.cooldown = true
     }
     
+    //making global.selected_gun match the now selected gun
     global.selected_gun = num
+    
+    // making the seletor be on the right gun
+    switch global.selected_gun {
+    	case 0:
+            sprite_index = spr_layout_select_1
+        break
+        
+        case 1:
+            sprite_index = spr_layout_select_2
+        break 
+        
+        case 2:
+            sprite_index = spr_layout_select_3
+        break
+    } 
+    
+    //setting up the gun to be selected and have the right bullet 
     var gun = obj_player.gun
     gun.selected = true
-    gun.bullet = global.loudout[num][1]
-    gun.selected = true
+    gun.bullet = global.loadout[num][1]
     
+    //giving the gun all the powerups the player has active
     for (var i = 0; i < array_length(global.spowerups_active); i++) {
         switch global.spowerups_active[i] {
             case "damage":
@@ -33,3 +56,5 @@ function switch_gun(num){
         }
     }
 }
+// making the selector be drawn on top of the rest of the UI
+depth = -100

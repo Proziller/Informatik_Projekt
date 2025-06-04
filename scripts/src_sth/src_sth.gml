@@ -3,8 +3,9 @@ function spread(ammount){
     return random_range(-1,1) * ammount
 }
 
-//creating loudout
-global.loudout = [[obj_gun_semiauto, obj_bullet_piercing], [ obj_gun_sprayer, obj_bullet_freezing], [obj_gun_sinper, obj_bullet_calorene_dense]]
+
+//creating loadout
+global.loadout = [[obj_gun_semiauto, obj_bullet_piercing], [ obj_gun_sprayer, obj_bullet_freezing], [obj_gun_sinper, obj_bullet_calorene_dense]]
 global.selected_gun = 0
 
 //===================creating level generating variables========================
@@ -15,7 +16,9 @@ global.traider = 0
 //round counts the cycles
 global.round = 1
 
-//the function to shoot:
+
+//======================the function to shoot:=============================
+
 function shoot(count, damage, dgr_offset, selected, bullet_spread, bullet_speed, dist, size, reloud, bullet, instance){
     
     //iterating for count

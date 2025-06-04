@@ -4,16 +4,16 @@ if hp < 1 && !dying{
 }
 if hp > 0{
     body.x = x
-    head.x = x + body.head_pos[0]
-    armL.x = x - body.arms_pos[0]
-    armR.x = x + body.arms_pos[0]
-    legL.x = x - body.legs_pos[0]
-    legR.x = x + body.legs_pos[0]
+    head.x = x + body.headPos[0]
+    armL.x = x - body.armPos[0]
+    armR.x = x + body.armPos[0]
+    legL.x = x - body.legPos[0]
+    legR.x = x + body.legPos[0]
     
     body.y = y
-    head.y = y + body.head_pos[1]
-    armL.y = y + body.arms_pos[1]
-    armR.y = y + body.arms_pos[1]
-    legL.y = y + body.legs_pos[1]
-    legR.y = y + body.legs_pos[1]
+    head.y = y + body.headPos[1]
+    armL.y = y + body.armPos[1]
+    armR.y = y + body.armPos[1]
+    legL.y = y + body.legPos[1]
+    legR.y = y + body.legPos[1]
 }
