@@ -1,6 +1,6 @@
 //creating the var, that holds the ammount of enemies and the var, that holds the ammount of alive enemies
 enemies = 0
-enemies_alive = 0
+enemiesAlive = 0
 //determening the ammount of blockades in a arena
 blockades = irandom_range(30,40)
 

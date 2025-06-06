@@ -1,5 +1,5 @@
 if room == rm_arena{
-    if obj_vars.enemies_alive == 0{
+    if obj_vars.enemiesAlive == 0{
         y = 32
     }
     else {

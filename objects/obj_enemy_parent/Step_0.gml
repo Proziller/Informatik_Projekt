@@ -8,7 +8,7 @@ if stunned or obj_player.dead{
     path_end()
 }
 
-if obj_vars.enemies_alive < 2{
+if obj_vars.enemiesAlive < 2{
     passthrough = false
     destination = obj_player
 }

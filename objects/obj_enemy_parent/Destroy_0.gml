@@ -1,1 +1,1 @@
-obj_vars.enemies_alive -= 1
+obj_vars.enemiesAlive -= 1

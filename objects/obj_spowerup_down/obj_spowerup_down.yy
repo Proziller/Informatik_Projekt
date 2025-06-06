@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_spowerup_health",
-    "path":"sprites/spr_spowerup_health/spr_spowerup_health.yy",
+    "name":"spr_spowerup_player_health",
+    "path":"sprites/spr_spowerup_player_health/spr_spowerup_player_health.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,10 +1,8 @@
+//updating the global hp var to have the hp stay the same after switching rooms
 global.hp = hp
 if !dead && room != rm_home{
     
-    sprite_index = body.sprite_index
-    visible = false
-    
-    //movement
+    //do the move script, when not stunned
     if !stunned{
         var _hor = keyboard_check(ord("D")) - keyboard_check(ord("A"))
         var _ver = keyboard_check(ord("S")) - keyboard_check(ord("W"))
@@ -22,17 +20,25 @@ if !dead && room != rm_home{
         }
         
         if array_contains(nonos, _hor) && array_contains(nonos, _ver){
-            player_speed = sqrt(sqr(speed_original)/2)
+            playerSpeed = sqrt(sqr(speed_original)/2)
         }
         
         else { 
-            player_speed = speed_original
+            playerSpeed = speed_original
         }
         
         if freezing{
-            player_speed /= 2
+            playerSpeed /= 2
         }
-        move_and_collide(_hor * player_speed, _ver * player_speed, [obj_blockade, obj_border])
+        
+        for (var i = 0; i < array_length(global.spowerups_active); i++) {
+        	switch global.spowerups_active[i] {
+            	case "playerspeed":
+                    Splayer_speed()
+                break
+            }
+        }
+        move_and_collide(_hor * playerSpeed, _ver * playerSpeed, [obj_blockade, obj_border])
     }
     
     //having all parts moving
