@@ -18,7 +18,7 @@ function Sbullet_damage(){
     obj_player.gun.bulletDamage *= 1.1
 }
 
-function Sbullet_spread(){
+function SbulletSpread(){
     obj_player.gun.bulletSpread *= 0.5
 }
 

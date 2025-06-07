@@ -9,4 +9,4 @@ blletCount = 6
 bulletDgrOffset = 10
 bulletSpread = 10
 bulletSpeed = 5
-bulletDist = 25
+bulletDist = 125

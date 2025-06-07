@@ -6,5 +6,5 @@ enemyStandDistance = 200
 //assigning the bullet varibles
 bulletSpread = 6
 bulletDamage = 0.5
-bulletDist = 20
+bulletDist = 220
 gunReload = 7

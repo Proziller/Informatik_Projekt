@@ -10,4 +10,4 @@ bulletDamage = 0.8
 bulletDgrOffset = 10
 bulletSpread = 5
 bulletSpeed = 5
-bulletDist = 15
+bulletDist = 125

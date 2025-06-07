@@ -7,5 +7,5 @@ enemyStandDistance = 200
 gunReload = 8
 bulletDamage = 0.75
 bulletSpread = 3
-bulletDist = 25
+bulletDist = 220
 peng_peng = 0

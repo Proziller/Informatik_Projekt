@@ -51,7 +51,7 @@ function switch_gun(num){
             break
             
             case "spread":
-                Sbullet_spread()
+                SbulletSpread()
             break
         }
     }

@@ -8,4 +8,4 @@ gunReload = 40
 blletCount = 24
 bulletDgrOffset = 20
 bulletSpeed = 5
-bulletDist = 15
+bulletDist = 220

@@ -10,7 +10,7 @@ switch pwerup {
     break
     
     case "bulletspread":
-        sprite_index = spr_spowerup_bullet_spread
+        sprite_index = spr_spowerup_bulletSpread
     break
     
     case "bulletsize":

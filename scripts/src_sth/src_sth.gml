@@ -19,7 +19,7 @@ global.round = 1
 
 //======================the function to shoot:=============================
 
-function shoot(count, damage, dgr_offset, selected, bullet_spread, bullet_speed, dist, size, reloud, bullet, instance){
+function shoot(count, damage, dgrOffset, selected, bulletSpread, bulletSpeed, dist, size, reloud, bullet, instance){
     
     //iterating for count
     for (var i = 0; i < count; i++) {
@@ -45,20 +45,20 @@ function shoot(count, damage, dgr_offset, selected, bullet_spread, bullet_speed,
             dmg *= damage
             
             //adding the offset degree(drg_offset) and spread
-            var offset = (i*dgr_offset) - ((count * dgr_offset) / 2) + dgr_offset / 2
-            image_angle += offset + spread(bullet_spread)
+            var offset = (i*dgrOffset) - ((count * dgrOffset) / 2) + dgrOffset / 2
+            image_angle += offset + spread(bulletSpread)
             
             //making the direction, the bullets moves, the direction, the bullet points to
             move_dir = image_angle
-            //making the bullet move speed bullet_speed
-            move_spd = bullet_speed * 2
+            //making the bullet move speed bulletSpeed
+            move_spd = bulletSpeed * 2
             
             //multiplying the bullet's size by size
             image_xscale *= size
             image_yscale *= size
             
             //anitiating the deleting timer by setting it to dist
-            alarm[0] = dist / 2
+            alarm[0] = dist / bulletSpeed
         }
         //turning on cooldown and anitiating the cooldown timer
         instance.cooldown = true

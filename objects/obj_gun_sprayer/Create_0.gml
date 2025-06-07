@@ -8,4 +8,4 @@ gunReload = 1
 bulletDamage = 0.2
 bulletSpread = 40
 bulletSpeed = 2.5
-bulletDist = 40
+bulletDist = 75
