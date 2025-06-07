@@ -20,48 +20,49 @@ global.round = 1
 //======================the function to shoot:=============================
 
 function shoot(count, damage, dgrOffset, selected, bulletSpread, bulletSpeed, dist, size, reloud, bullet, instance){
-    
-    //iterating for count
-    for (var i = 0; i < count; i++) {
-    	
-        //creating the bullet and storing it in created_bullet
-        var created_bullet = instance_create_depth(x, y, -9, bullet)
-        
-        //if the gun is selectet/held by the player it changes the targets to be the enemies and points the bullet to the mouse
-        if selected {
+    if instance_exists(obj_player){
+        //iterating for count
+        for (var i = 0; i < count; i++) {
+        	
+            //creating the bullet and storing it in created_bullet
+            var created_bullet = instance_create_depth(x, y, -9, bullet)
+            
+            //if the gun is selectet/held by the player it changes the targets to be the enemies and points the bullet to the mouse
+            if selected {
+                with created_bullet{
+                    bulletTarget = [obj_enemy_parent]
+                    image_angle = point_direction(x, y, mouse_x, mouse_y)
+                }
+            }
+            //else it points the bullet in the direction of the player
+            else {
+            	with created_bullet { 
+                    image_angle = point_direction(x, y, obj_player.x, obj_player.y)
+                }
+            }
             with created_bullet{
-                bulletTarget = [obj_enemy_parent]
-                image_angle = point_direction(x, y, mouse_x, mouse_y)
+                //multiplies the damage by damage
+                dmg *= damage
+                
+                //adding the offset degree(drg_offset) and spread
+                var offset = (i*dgrOffset) - ((count * dgrOffset) / 2) + dgrOffset / 2
+                image_angle += offset + spread(bulletSpread)
+                
+                //making the direction, the bullets moves, the direction, the bullet points to
+                move_dir = image_angle
+                //making the bullet move speed bulletSpeed
+                move_spd = bulletSpeed * 2
+                
+                //multiplying the bullet's size by size
+                image_xscale *= size
+                image_yscale *= size
+                
+                //anitiating the deleting timer by setting it to dist
+                alarm[0] = dist / bulletSpeed
             }
+            //turning on cooldown and anitiating the cooldown timer
+            instance.cooldown = true
+            instance.alarm[0] = reloud
         }
-        //else it points the bullet in the direction of the player
-        else {
-        	with created_bullet { 
-                image_angle = point_direction(x, y, obj_player.x, obj_player.y)
-            }
-        }
-        with created_bullet{
-            //multiplies the damage by damage
-            dmg *= damage
-            
-            //adding the offset degree(drg_offset) and spread
-            var offset = (i*dgrOffset) - ((count * dgrOffset) / 2) + dgrOffset / 2
-            image_angle += offset + spread(bulletSpread)
-            
-            //making the direction, the bullets moves, the direction, the bullet points to
-            move_dir = image_angle
-            //making the bullet move speed bulletSpeed
-            move_spd = bulletSpeed * 2
-            
-            //multiplying the bullet's size by size
-            image_xscale *= size
-            image_yscale *= size
-            
-            //anitiating the deleting timer by setting it to dist
-            alarm[0] = dist / bulletSpeed
-        }
-        //turning on cooldown and anitiating the cooldown timer
-        instance.cooldown = true
-        instance.alarm[0] = reloud
     }
 }
