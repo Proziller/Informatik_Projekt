@@ -19,6 +19,8 @@ leg = instance_create_depth(x-body.legPos[0],y+body.legPos[1],depth-1,obj_boss_l
 leg.visible = false
 
 legL = instance_create_depth(x-body.legPos[0],y+body.legPos[1],depth-1,leg.object_index)
+legL.sprite_index = leg.sprite_index
 
 legR = instance_create_depth(x+body.legPos[0],y+body.legPos[1],depth-1,leg.object_index)
+legR.sprite_index = leg.sprite_index
 legR.image_xscale = -1

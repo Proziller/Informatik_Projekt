@@ -33,10 +33,10 @@ if pos != noone{
     }
     
     //destroying all weapon choices
-    //instance_destroy(obj_gunDisplay_bullet_up)
-    //instance_destroy(obj_gunDisplay_bullet_down)
-    //instance_destroy(obj_gunDisplay_down)
-    //instance_destroy(obj_gunDisplay_up)
+    instance_destroy(obj_gunDisplay_bullet_up)
+    instance_destroy(obj_gunDisplay_bullet_down)
+    instance_destroy(obj_gunDisplay_down)
+    instance_destroy(obj_gunDisplay_up)
 }
 
 //else reverting to the original position 

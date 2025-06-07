@@ -14,9 +14,23 @@ gun.bullet = global.loadout[global.selectedGun][1]
 speedOriginal = 4
 playerSpeed = speedOriginal
 
+//applying the speed powerup
+for (var i = 0; i < array_length(global.spowerupsActive); i++) {
+    switch global.spowerupsActive[i] {
+        case "playerspeed":
+            speedOriginal *= 1.25
+        break
+    }
+}
+
 //setting up health
 maxhp = 40
-hp = maxhp
+if room == rm_home{
+    hp = maxhp
+}
+else {
+    hp = global.hp
+}
 
 //setting up the dash
 dashCooldown = false

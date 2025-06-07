@@ -20,15 +20,6 @@ if !dead && room != rm_home{
         playerSpeed /= 2
     }
     
-    //applying the speed powerup
-    for (var i = 0; i < array_length(global.spowerupsActive); i++) {
-        switch global.spowerupsActive[i] {
-            case "playerspeed":
-                Splayer_speed()
-            break
-        }
-    }
-    
     //move when not stunned
     if !stunned{
         move_and_collide(_hor * playerSpeed, _ver * playerSpeed, [obj_blockade, obj_border])
@@ -91,17 +82,5 @@ if !dead && room != rm_home{
             image_yscale = -1.5
         }
         image_xscale = 1.5
-    }
-    
-    
-    
-    //on death
-    if global.hp < 1{
-        dead = true
-        //deleting all bodyparts
-        instance_destroy(body)
-        instance_destroy(grabber)
-        instance_destroy(wheels)
-        instance_destroy(gun)
     }
 }

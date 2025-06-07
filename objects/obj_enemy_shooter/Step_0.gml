@@ -23,12 +23,15 @@ if activeTime && !stunned{
     }
     
     //stop when when under the enemyStandDistance
-    if distance_to_object(destination) < gun.enemyStandDistance{
+    if distance_to_object(destination) < gun.enemyStandDistance && collision_line(x, y, destination.x, destination.y, obj_blockade, true, false) == noone{
         if path_exists(path){
             path_delete(path)
             alarm[0] = 1
         }
     }
+}
+if stunned{
+    gun.pressed = false
 }
 
 //rotate the gun to the destination

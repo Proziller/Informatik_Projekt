@@ -6,4 +6,4 @@ obj_gunDisplay_bullet_up.y = y - 11
 obj_gunDisplay_bullet_up.sprite_index = bullet_spr
 
 //making the bullet be drawn on top of the gun
-obj_gunDisplay_bullet_down.depth = depth - 5
+obj_gunDisplay_bullet_up.depth = depth - 5

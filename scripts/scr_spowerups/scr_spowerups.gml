@@ -10,10 +10,6 @@ function Splayer_health(){
     obj_player.hp += 10
 }
 
-function Splayer_speed(){
-    obj_player.player_speedOriginal *= 1.2
-}
-
 function Sbullet_distance(){
     obj_player.gun.bulletDist *= 1.2
 }

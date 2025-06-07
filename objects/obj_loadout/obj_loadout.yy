@@ -38,8 +38,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_layout_select_1",
-    "path":"sprites/spr_layout_select_1/spr_layout_select_1.yy",
+    "name":"spr_layout_select_2",
+    "path":"sprites/spr_layout_select_2/spr_layout_select_2.yy",
   },
   "spriteMaskId":null,
   "visible":true,

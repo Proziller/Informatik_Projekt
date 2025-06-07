@@ -9,11 +9,11 @@ if !cooldown {
             shoot(36, 0.8, 10, false, 0, 2.5, 45, 1, 120, obj_boss_bullet_circle, self)
         break
         
-        case spr_boss_arm_wall:
+        case spr_boss_arm_wall_horizontal:
             
             //making it switch sides
             var wallSpeed = 4
-            if wallSide == "right"{
+            if wallSide != "left"{
                 wallSide = "left"
                 wallSpeed = -4
             }
@@ -22,11 +22,40 @@ if !cooldown {
             }
             
             //placing wall fragments all accross the room
-            var wallAmmount = room_width / 32
+            var wallAmmount = room_height / 32
+            show_debug_message((wallSpeed/4+1)*3+22)
             for (var i = 0; i < wallAmmount; i++) {
-            	var wall_fragment = instance_create_depth(wallAmmount, i*32, depth-1, obj_boss_attack_wall)
+            	var wall_fragment = instance_create_depth((-wallSpeed/4+1)*298+22, i*32, depth-1, obj_boss_attack_wall)
                 with wall_fragment {
                 	x_speed = wallSpeed
+                }
+            }
+            
+            //making it loop
+            cooldown = true
+            alarm[0] = 240
+        break
+        
+        case spr_boss_arm_wall_vertical:
+            
+            //making it switch sides
+            var wallSpeed = 4
+            if wallSide != "down"{
+                wallSide = "down"
+                wallSpeed = -4
+            }
+            else {
+            	wallSide = "up"
+            }
+            
+            //placing wall fragments all accross the room
+            var wallAmmount = room_width / 32
+            show_debug_message((wallSpeed/4+1)*3+22)
+            for (var i = 0; i < wallAmmount; i++) {
+            	var wall_fragment = instance_create_depth(i*32, (-wallSpeed/4+1)*202+22, depth-1, obj_boss_attack_wall)
+                with wall_fragment {
+                	y_speed = wallSpeed
+                    image_angle = 90
                 }
             }
             
