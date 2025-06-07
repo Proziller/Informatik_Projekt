@@ -1,4 +1,4 @@
-switch_gun(global.selected_gun)
+switch_gun(global.selectedGun)
 
 //when there are displays for the guns in the room, make them match the loadout by creating the guns, getting their sprite and destroying them again
 if instance_exists(obj_loadout_1) && instance_exists(obj_loadout_2) && instance_exists(obj_loadout_3) && instance_exists(obj_loadout_bullet_3) && instance_exists(obj_loadout_bullet_2) && instance_exists(obj_loadout_bullet_1){

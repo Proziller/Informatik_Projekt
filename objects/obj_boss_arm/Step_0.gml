@@ -1,3 +1,4 @@
+//shooting matching to the arm
 if !cooldown {
     switch arm {
     	case spr_boss_arm_spray:
@@ -9,22 +10,27 @@ if !cooldown {
         break
         
         case spr_boss_arm_wall:
-            var wall_speed = 4
-            var wall_spawn = 0
-            if wall_side == "right"{
-                wall_side = "left"
-                wall_speed = -4
-                wall_spawn = room_width
+            
+            //making it switch sides
+            var wallSpeed = 4
+            if wallSide == "right"{
+                wallSide = "left"
+                wallSpeed = -4
             }
             else {
-            	wall_side = "right"
+            	wallSide = "right"
             }
-            for (var i = 0; i < room_height / 32; i++) {
-            	var wall_fragment = instance_create_depth(wall_spawn, i*32, depth-1, obj_boss_attack_wall)
+            
+            //placing wall fragments all accross the room
+            var wallAmmount = room_width / 32
+            for (var i = 0; i < wallAmmount; i++) {
+            	var wall_fragment = instance_create_depth(wallAmmount, i*32, depth-1, obj_boss_attack_wall)
                 with wall_fragment {
-                	x_speed = wall_speed
+                	x_speed = wallSpeed
                 }
             }
+            
+            //making it loop
             cooldown = true
             alarm[0] = 240
         break

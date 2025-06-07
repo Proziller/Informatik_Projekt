@@ -1,27 +1,37 @@
 event_inherited()
-if shootin && !stunned{
+
+//only do stuff when not stunned and active
+if activeTime && !stunned{
+    //teleport gun to self
     gun.x = x
     gun.y = y
     
-    if passthrough {
+    //when confused make the gun be like the one of the player and if not, not
+    if confused {
         gun.selected = true
     }
     else {
         gun.selected = false
     }
     
-    if distance_to_object(destination) > gun.enemyStandDistance * 0.75{
-    	gun.pressed = false
+    //shoot when close to the destination
+    if distance_to_object(destination) < gun.enemyStandDistance * 1.25{
+    	gun.pressed = true
     }
-    else  {
-        if path_exists(path) {
-        	path_delete(path)
+    else{
+        gun.pressed = false
+    }
+    
+    //stop when when under the enemyStandDistance
+    if distance_to_object(destination) < gun.enemyStandDistance{
+        if path_exists(path){
+            path_delete(path)
+            alarm[0] = 1
         }
     }
-    if distance_to_object(destination) < gun.enemyStandDistance{
-        gun.pressed = true
-    }
 }
+
+//rotate the gun to the destination
 var dest = destination
 with gun {
     image_angle = point_direction(x, y, dest.x, dest.y)

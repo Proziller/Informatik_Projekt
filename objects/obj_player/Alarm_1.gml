@@ -1,3 +1,4 @@
+//repeat 10 times hp -= 1 in 30 step intevals else reset the bleed timer
 if bleed > 0{
     hp -= 0.5
     alarm[1] = 30

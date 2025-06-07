@@ -1,5 +1,5 @@
 //if the display, that is dragged, meets a loudout slot at the end of a drag
-var pos = instance_place(x, y, [obj_hitbox_1, obj_hitbox_2, obj_hitbox_3])
+var pos = instance_position(x, y, [obj_hitbox_1, obj_hitbox_2, obj_hitbox_3])
 if pos != noone{
     
     //switch for the loudout slots to take on the right sprite and the loudout to update to the right gun
@@ -33,10 +33,10 @@ if pos != noone{
     }
     
     //destroying all weapon choices
-    instance_destroy(obj_gunDisplay_bullet_up)
-    instance_destroy(obj_gunDisplay_bullet_down)
-    instance_destroy(obj_gunDisplay_down)
-    instance_destroy(obj_gunDisplay_up)
+    //instance_destroy(obj_gunDisplay_bullet_up)
+    //instance_destroy(obj_gunDisplay_bullet_down)
+    //instance_destroy(obj_gunDisplay_down)
+    //instance_destroy(obj_gunDisplay_up)
 }
 
 //else reverting to the original position 

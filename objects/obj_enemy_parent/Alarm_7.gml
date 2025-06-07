@@ -1,1 +1,2 @@
+//reset stunCooldown
 stunCooldown = false

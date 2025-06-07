@@ -3,9 +3,9 @@ if pwerup == "health"{
     Splayer_health()
 }
 
-//else pushing the powerup into global.spowerups_active
+//else pushing the powerup into global.spowerupsActive
 else {
-    array_push(global.spowerups_active, pwerup)
+    array_push(global.spowerupsActive, pwerup)
 }
 
 //destroying the powerups

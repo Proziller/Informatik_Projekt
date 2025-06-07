@@ -1,3 +1,4 @@
-speed_original /= 4
-dash_cooldown = true
+//resetting the speed and starting dash
+speedOriginal /= 4
+dashCooldown = true
 alarm[2] = 30

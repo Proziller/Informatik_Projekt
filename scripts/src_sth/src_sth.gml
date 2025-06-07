@@ -1,13 +1,13 @@
-//a simple function to determin spread by ammount
-function spread(ammount){
-    return random_range(-1,1) * ammount
-}
-
-
 //creating loadout
 global.loadout = [[obj_gun_semiauto, obj_bullet_piercing], [ obj_gun_sprayer, obj_bullet_freezing], [obj_gun_sinper, obj_bullet_calorene_dense]]
-global.selected_gun = 0
+global.selectedGun = 0
 
+
+//a simple function to determin spread by ammount
+function spread(ammount){ 
+    return random_range(-1,1) * ammount
+}  
+ 
 //===================creating level generating variables========================
 //fight count all arena fights and bossfights
 global.fight = 0

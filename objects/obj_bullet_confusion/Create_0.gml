@@ -6,8 +6,8 @@ bullet_hit_ability = function(hit) {
         //setting the hits destination to be enemies
         hit.destination = obj_enemy_parent
         
-        //activatin the hits passthrough for 120 steps
-        hit.passthrough = true
+        //activatin the hits confused for 120 steps
+        hit.confused = true
         hit.alarm[6] = 120
     }
 }

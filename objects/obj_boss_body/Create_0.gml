@@ -1,7 +1,11 @@
+//array that stores all bodies
 bodies = [spr_boss_body_heavy, spr_boss_body_normal, spr_boss_body_slim]
+
+//picking the body
 body = bodies[irandom(array_length(bodies)-1)]
 sprite_index = body
 
+//setting the position of the bodyparts
 switch body {
 	case spr_boss_body_slim:
         headPos = [0, -12]

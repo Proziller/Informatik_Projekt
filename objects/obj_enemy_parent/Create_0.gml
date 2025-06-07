@@ -1,16 +1,19 @@
+//creating an array with all kinds of enemies
 enemies = [obj_enemy_creeper, obj_enemy_shooter]
 
-sped = 1
-speedy = 1
+//setting up speed
+enemySpeedOriginal = 1
+enemySpeed = enemySpeedOriginal
 
-alarm[0] = 90
-
+//setting up effects
 freezing = false
 dying = false
 bleed = 5
 stunned = false
 stunCooldown = false
-passthrough = false
+confused = false
 
+//setting up pathfinding
+alarm[0] = 90
 path = path_add()
 destination = obj_player

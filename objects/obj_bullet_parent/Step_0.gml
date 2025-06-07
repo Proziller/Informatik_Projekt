@@ -18,7 +18,7 @@ repeat(_stepCount){
         if object_is_ancestor(hit.object_index, obj_enemy_parent){
             
             //if the object shall be hit
-            if !hit.passthrough{
+            if !hit.confused{
                 //has it already been hit by the bullet
                 if !array_contains(hitted,hit){
                     

@@ -1,1 +1,2 @@
-dash_cooldown = false
+//resetting dash cooldown
+dashCooldown = false

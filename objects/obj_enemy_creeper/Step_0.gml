@@ -1,12 +1,18 @@
 event_inherited()
-if !obj_player.dead{
-    if distance_to_object(destination)<20 && !exploded{
-        sprite_index = spr_explosion
-            var list = ds_list_create()
-            ds_list_clear(list)
-            collision_circle_list(x, y, 10000, destination, false, true, list, true)
-            list[| 0].hp -= 10
-        exploded = true
+
+//explode when the destination is close
+if distance_to_object(destination) < 20 && !exploded{
+    
+    //do damage to all instances that are destination in a 40 radius
+    var list = ds_list_create()
+    ds_list_clear(list)
+    var num = collision_circle_list(x, y, 40, destination, false, true, list, true)
+    for (var i = 0; i < num; i++) {
+        list[| i].hp -= 10
     }
+    
+    //setting up exploding
+    exploded = true
+    sprite_index = spr_explosion
+    image_speed = 1
 }
-image_speed = 1

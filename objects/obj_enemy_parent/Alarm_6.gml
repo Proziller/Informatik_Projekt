@@ -1,3 +1,4 @@
+//reset pathfinding
 destination = obj_player
-passthrough = false
+confused = false
 alarm[0] = 1

@@ -1,3 +1,4 @@
+//delete all parts when dying
 if sprite_index == spr_explosion{
     instance_destroy()
     instance_destroy(body)

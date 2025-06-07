@@ -1,7 +1,15 @@
+//make all parts explode
 if hp < 1 && !dying{
     sprite_index = spr_explosion
+    head.sprite_index = spr_explosion
+    armL.sprite_index = spr_explosion
+    armR.sprite_index = spr_explosion
+    legL.sprite_index = spr_explosion
+    legR.sprite_index = spr_explosion
     dying = true
 }
+
+//make all parts move
 if hp > 0{
     body.x = x
     head.x = x + body.headPos[0]

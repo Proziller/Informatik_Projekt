@@ -6,20 +6,20 @@ wheels = instance_create_depth(x,y,-1,obj_player_wheels)
 visible = false
 
 //creating the gun and setting it up to be the players gun
-gun = instance_create_depth(obj_player.x,obj_player.y,depth-1,global.loadout[global.selected_gun][0])
+gun = instance_create_depth(obj_player.x,obj_player.y,depth-1,global.loadout[global.selectedGun][0])
 gun.selected = true
-gun.bullet = global.loadout[global.selected_gun][1]
+gun.bullet = global.loadout[global.selectedGun][1]
 
 //setting up speed
-speed_original = 4
-playerSpeed = speed_original
+speedOriginal = 4
+playerSpeed = speedOriginal
 
 //setting up health
 maxhp = 40
 hp = maxhp
 
 //setting up the dash
-dash_cooldown = false
+dashCooldown = false
 
 //creating dead var
 dead = false

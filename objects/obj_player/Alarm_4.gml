@@ -1,1 +1,2 @@
+//resetting stunned
 stunned = false

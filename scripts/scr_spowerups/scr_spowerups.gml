@@ -3,7 +3,7 @@
 global.spowerups = ["bulletdamage", "bulletdistance", "bulletsize", "bulletspread", "playerspeed", "playerhealth"]
 
 //creating the array that store all active singular powerups
-global.spowerups_active = []
+global.spowerupsActive = []
 
 //the functions for the powerups
 function Splayer_health(){
@@ -11,7 +11,7 @@ function Splayer_health(){
 }
 
 function Splayer_speed(){
-    obj_player.player_speed_original *= 1.2
+    obj_player.player_speedOriginal *= 1.2
 }
 
 function Sbullet_distance(){

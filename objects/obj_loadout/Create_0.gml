@@ -12,11 +12,11 @@ function switch_gun(num){
         obj_player.gun.cooldown = true
     }
     
-    //making global.selected_gun match the now selected gun
-    global.selected_gun = num
+    //making global.selectedGun match the now selected gun
+    global.selectedGun = num
     
     // making the seletor be on the right gun
-    switch global.selected_gun {
+    switch global.selectedGun {
     	case 0:
             sprite_index = spr_layout_select_1
         break
@@ -36,8 +36,8 @@ function switch_gun(num){
     gun.bullet = global.loadout[num][1]
     
     //giving the gun all the powerups the player has active
-    for (var i = 0; i < array_length(global.spowerups_active); i++) {
-        switch global.spowerups_active[i] {
+    for (var i = 0; i < array_length(global.spowerupsActive); i++) {
+        switch global.spowerupsActive[i] {
             case "damage":
                 Sbullet_damage()
             break
