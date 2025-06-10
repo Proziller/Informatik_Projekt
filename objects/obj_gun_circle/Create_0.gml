@@ -1,7 +1,7 @@
 event_inherited()
 
 //assigning the stand distance
-enemyStandDistance = 100
+enemyStandDistance = 75
 
 //assigning the bullet varibles
 gunReload = 90
@@ -10,4 +10,4 @@ bulletDamage = 0.8
 bulletDgrOffset = 10
 bulletSpread = 5
 bulletSpeed = 5
-bulletDist = 125
+bulletDist = 83

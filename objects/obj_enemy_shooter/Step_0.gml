@@ -1,5 +1,5 @@
 event_inherited()
-if instance_exists(obj_player){
+if instance_exists(obj_player) && instance_exists(gun){
     //only do stuff when not stunned and active
     if activeTime && !stunned{
         //teleport gun to self
@@ -46,4 +46,9 @@ if instance_exists(obj_player){
         }
         image_xscale = 1.5
     }
+}
+
+//destroy the gun when the instance is dead
+if hp < 1{
+    instance_destroy(gun)
 }

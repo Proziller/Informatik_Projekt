@@ -1,7 +1,8 @@
 //creating loadout
-global.loadout = [[obj_gun_semiauto, obj_bullet_piercing], [ obj_gun_sprayer, obj_bullet_freezing], [obj_gun_sinper, obj_bullet_calorene_dense]]
+global.loadout = [[obj_gun_semiauto, obj_bullet_arial], [obj_gun_placeholder, obj_bullet_placeholder], [obj_gun_placeholder, obj_bullet_placeholder]]
 global.selectedGun = 0
-
+global.inv = [[obj_gun_shotgun, obj_bullet_bleeding], [obj_gun_placeholder, obj_bullet_placeholder], [obj_gun_placeholder, obj_bullet_placeholder], [obj_gun_placeholder, obj_bullet_placeholder]]
+global.scraps = "0"
 
 //a simple function to determin spread by ammount
 function spread(ammount){ 

@@ -23,7 +23,7 @@ if instance_exists(obj_player){
         var num = collision_circle_list(x, y, 10000, destination, false, true, list, true)
         var dest = list[| 0]
         
-        //when there is a 
+        //when there is an istance of the destination
         if num > 0{
             mp_grid_path(obj_grid_setup.grid, path, x, y, dest.x, dest.y, 1)
             path_start(path,enemySpeed,path_action_stop,1)

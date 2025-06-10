@@ -1,4 +1,4 @@
-if instance_exists(obj_player){
+if instance_exists(obj_player) && instance_exists(gun){
     enemySpeed = 1
     activeTime = true
     

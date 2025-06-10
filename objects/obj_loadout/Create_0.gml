@@ -3,6 +3,7 @@ function switch_gun(num){
     
     //destroy the players gun
     instance_destroy(obj_player.gun)
+    
     //creating the new gun, that is in global.loadout[num][0]
     obj_player.gun = instance_create_depth(obj_player.x,obj_player.y,depth-1,global.loadout[num][0])
     
@@ -14,21 +15,6 @@ function switch_gun(num){
     
     //making global.selectedGun match the now selected gun
     global.selectedGun = num
-    
-    // making the seletor be on the right gun
-    switch global.selectedGun {
-    	case 0:
-            sprite_index = spr_layout_select_1
-        break
-        
-        case 1:
-            sprite_index = spr_layout_select_2
-        break 
-        
-        case 2:
-            sprite_index = spr_layout_select_3
-        break
-    } 
     
     //setting up the gun to be selected and have the right bullet 
     var gun = obj_player.gun
@@ -57,4 +43,4 @@ function switch_gun(num){
     }
 }
 // making the selector be drawn on top of the rest of the UI
-depth = -100
+depth = -50

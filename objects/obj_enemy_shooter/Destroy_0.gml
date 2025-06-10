@@ -1,6 +1,5 @@
 event_inherited()
 
-//destroy the gun when the instance is destroyed
-if !obj_player.dead {
-    instance_destroy(gun)
-}
+var scraps = real(global.scraps)
+scraps += irandom_range(power(1.25, global.round), power(1.35, global.round))
+global.scraps = string(scraps)

@@ -6,7 +6,7 @@ repeat(_stepCount){
     y += lengthdir_y(_stepSpd, move_dir)
     
     //if it hits the border or blockade destroying the bullet
-    if place_meeting(x,y,obj_border) or place_meeting(x, y, obj_blockade){
+    if place_meeting(x,y,[obj_blockade, obj_bullet_delete]){
         instance_destroy()
     }
     

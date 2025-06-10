@@ -1,0 +1,10 @@
+pressed = false
+obj_chest_UI.visible = false
+obj_inv_bullet_slot_1.visible = false
+obj_inv_bullet_slot_2.visible = false
+obj_inv_bullet_slot_3.visible = false
+obj_inv_bullet_slot_4.visible = false
+obj_inv_gun_slot_1.visible = false
+obj_inv_gun_slot_2.visible = false
+obj_inv_gun_slot_3.visible = false
+obj_inv_gun_slot_4.visible = false

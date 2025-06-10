@@ -3,7 +3,7 @@
   "%Name":"spr_layout_select_3",
   "bboxMode":0,
   "bbox_bottom":9,
-  "bbox_left":12,
+  "bbox_left":0,
   "bbox_right":18,
   "bbox_top":0,
   "collisionKind":1,

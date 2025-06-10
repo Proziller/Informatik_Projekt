@@ -68,7 +68,7 @@ if !dead && room != rm_home{
     grabber.x = x
     grabber.y = y
     gun.x = x
-    gun.y = y-14
+    gun.y = y-12
     
     
     

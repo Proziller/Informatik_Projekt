@@ -6,6 +6,6 @@ if instance_exists(obj_player){
         //creating a circular shooting pattern
         shoot(blletCount, bulletDamage, bulletDgrOffset, selected, bulletSpread, bulletSpeed, bulletDist, bulletSize, gunReload, bullet, self)
         //creating a single bigger bullet, that flies longer and is bigger
-        shoot(1, 1.5, 0, selected, 0, 10, 20, 1.5, gunReload, bullet, self)
+        shoot(1, 1.5, 0, selected, 0, 10, 132, 1.5, gunReload, bullet, self)
     }
 }
