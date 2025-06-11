@@ -6,8 +6,11 @@ var gui_mouse_x = device_mouse_x_to_gui(0)
 var gui_mouse_y = device_mouse_y_to_gui(0)
 
 if position_meeting(gui_mouse_x, gui_mouse_y, id){
-    if gun != obj_gun_placeholder{
-        global.hover = return_gun_and_bullet(gun, bullet)
+    
+    var ret = return_gun_and_bullet(gun, bullet)
+    
+    if gun != obj_gun_placeholder && ret != [[""],[""]]{
+        global.hover = ret
     }
 }
 

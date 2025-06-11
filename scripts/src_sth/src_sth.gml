@@ -3,7 +3,7 @@ global.loadout = [[obj_gun_semiauto, obj_bullet_arial], [obj_gun_placeholder, ob
 global.selectedGun = 0
 global.inv = [[obj_gun_shotgun, obj_bullet_bleeding], [obj_gun_placeholder, obj_bullet_placeholder], [obj_gun_placeholder, obj_bullet_placeholder], [obj_gun_placeholder, obj_bullet_placeholder]]
 global.scraps = "0"
-global.hover = noone
+global.hover = [["",""],["",""]]
 
 //a simple function to determin spread by ammount
 function spread(ammount){ 
@@ -84,97 +84,113 @@ function return_gun_and_bullet(gun, bullet){
     var ret = [[], []]
     switch gun {
     	case obj_gun_auto:
-            array_push(ret[0], "automatic")
+            array_push(ret[0], "gun: automatic")
+            array_push(ret[0], "shoots a constant stream of bullets")
         break
         
         
     	case obj_gun_big:
-            array_push(ret[0], "big gun")
+            array_push(ret[0], "gun: big gun")
+            array_push(ret[0], "shoots a bigger bullet pretty far")
         break
         
         
     	case obj_gun_circle:
-            array_push(ret[0], "circle gun")
+            array_push(ret[0], "gun: circle gun")
+            array_push(ret[0], "shoots a circle of bullets")
         break
         
         
     	case obj_gun_parrable:
-            array_push(ret[0], "alien gun")
+            array_push(ret[0], "gun: alien gun")
+            array_push(ret[0], "shoots a circle of bullets and a bigger bullet")
         break
         
         
     	case obj_gun_semiauto:
-            array_push(ret[0], "semi-automatic")
+            array_push(ret[0], "gun: semi- automatic")
+            array_push(ret[0], "shoots three bullets")
         break
         
         
     	case obj_gun_shotgun:
-            array_push(ret[0], "shotgun")
+            array_push(ret[0], "gun: shotgun")
+            array_push(ret[0], "a shotgun")
         break
         
         
     	case obj_gun_sinper:
-            array_push(ret[0], "sniper")
+            array_push(ret[0], "gun: sniper")
+            array_push(ret[0], "a sniper")
         break
         
         
     	case obj_gun_sprayer:
-            array_push(ret[0], "spray gun")
+            array_push(ret[0], "gun: spray gun")
+            array_push(ret[0], "shoots not far, but many bullets")
         break
         
         
     	case obj_gun_superfast:
-            array_push(ret[0], "turbo gun")
+            array_push(ret[0], "gun: turbo gun")
+            array_push(ret[0], "shoots a bullet very fast and far")
         break
     }
     
     switch bullet {
     	case obj_bullet_arial:
-            array_push(ret[1], "arial")
+            array_push(ret[1], "bullet: arial")
+            array_push(ret[1], "does damage to instances near the hit instance")
         break
         
         
     	case obj_bullet_big:
-            array_push(ret[1], "big")
+            array_push(ret[1], "bullet: big")
+            array_push(ret[1], "a big bullet")
         break
         
         
     	case obj_bullet_bleeding:
-            array_push(ret[1], "bleeding")
+            array_push(ret[1], "bullet: bleeding")
+            array_push(ret[1], "damages the hit instance over time")
         break
         
         
     	case obj_bullet_calorene_dense:
-            array_push(ret[1], "fat")
+            array_push(ret[1], "bullet: fat")
+            array_push(ret[1], "makes the hit instance bigger")
         break
         
         
     	case obj_bullet_confusion:
-            array_push(ret[1], "confusion")
+            array_push(ret[1], "bullet: confusion")
+            array_push(ret[1], "makes hit enemies target other enemies")
         break
         
         
     	case obj_bullet_freezing:
-            array_push(ret[1], "freezing")
+            array_push(ret[1], "bullet: freezing")
+            array_push(ret[1], "makes the hit instace slower")
         break
         
         
     	case obj_bullet_homing:
-            array_push(ret[1], "homing")
+            array_push(ret[1], "bullet: homing")
+            array_push(ret[1], "homes to the neares instance")
         break
         
         
     	case obj_bullet_piercing:
-            array_push(ret[1], "piercing")
+            array_push(ret[1], "bullet: piercing")
+            array_push(ret[1], "goes through an instance")
         break
         
         
     	case obj_bullet_stun:
-            array_push(ret[1], "stun")
+            array_push(ret[1], "bullet: stun")
+            array_push(ret[1], "stunes the hit instance")
         break
     }
-    array_push(ret[0],"")
-    array_push(ret[1],"")
     show_debug_message(ret)
     return ret
 }

@@ -6,9 +6,6 @@ global.spowerups = ["bulletdamage", "bulletdistance", "bulletsize", "bulletsprea
 global.spowerupsActive = []
 
 //the functions for the powerups
-function Splayer_health(){
-    obj_player.hp += 10
-}
 
 function Sbullet_distance(){
     obj_player.gun.bulletDist *= 1.2

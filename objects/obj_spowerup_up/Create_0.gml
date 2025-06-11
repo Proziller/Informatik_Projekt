@@ -17,10 +17,6 @@ switch pwerup {
         sprite_index = spr_spowerup_bullet_size
     break
     
-    case "playerhealth":
-        sprite_index = spr_spowerup_player_health
-    break
-    
     case "playerspeed": 
         sprite_index = spr_spowerup_player_speed
     break

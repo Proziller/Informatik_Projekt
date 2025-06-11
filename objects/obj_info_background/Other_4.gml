@@ -4,4 +4,3 @@ if room == rm_home or room == rm_traider{
 else {
 	visible = false
 }
-global.hover = noone

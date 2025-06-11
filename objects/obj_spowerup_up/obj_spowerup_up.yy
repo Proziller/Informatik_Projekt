@@ -31,10 +31,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_spowerup_player_health",
-    "path":"sprites/spr_spowerup_player_health/spr_spowerup_player_health.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
