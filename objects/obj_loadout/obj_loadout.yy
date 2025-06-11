@@ -18,7 +18,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"loadout",
-    "path":"folders/UI/loadout.yy",
+    "path":"folders/HUD/loadout.yy",
   },
   "parentObjectId":null,
   "persistent":true,

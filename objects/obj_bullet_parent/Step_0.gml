@@ -53,6 +53,9 @@ repeat(_stepCount){
             //activating the hit ability
             bullet_hit_ability(hit)
         }
+        var ps = part_system_create(ps_hit)
+        part_system_position(ps, x, y)
+        part_system_depth(ps, -100)
     }
 }
 //activating the constant ability once per tick

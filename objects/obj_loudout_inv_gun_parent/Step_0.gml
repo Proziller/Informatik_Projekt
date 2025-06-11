@@ -5,6 +5,12 @@ sprite_index = object_get_sprite(gun)
 var gui_mouse_x = device_mouse_x_to_gui(0)
 var gui_mouse_y = device_mouse_y_to_gui(0)
 
+if position_meeting(gui_mouse_x, gui_mouse_y, id){
+    if gun != obj_gun_placeholder{
+        global.hover = return_gun_and_bullet(gun, bullet)
+    }
+}
+
 if !being_dragged and position_meeting(gui_mouse_x, gui_mouse_y, id){ 
     if mouse_check_button_pressed(mb_left){ 
         being_dragged = true

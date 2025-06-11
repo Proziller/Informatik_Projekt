@@ -10,8 +10,8 @@
   "name":"obj_screen",
   "overriddenProperties":[],
   "parent":{
-    "name":"UI",
-    "path":"folders/UI.yy",
+    "name":"HUD",
+    "path":"folders/HUD.yy",
   },
   "parentObjectId":null,
   "persistent":true,

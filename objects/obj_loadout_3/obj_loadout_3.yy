@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"loadout",
-    "path":"folders/UI/loadout.yy",
+    "path":"folders/HUD/loadout.yy",
   },
   "parentObjectId":{
     "name":"obj_loadout_1",

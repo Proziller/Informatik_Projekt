@@ -26,7 +26,7 @@
   "origin":4,
   "parent":{
     "name":"loadout",
-    "path":"folders/UI/loadout.yy",
+    "path":"folders/HUD/loadout.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
