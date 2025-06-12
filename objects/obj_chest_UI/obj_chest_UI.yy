@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprj_chest_UI",
-    "path":"sprites/sprj_chest_UI/sprj_chest_UI.yy",
+    "name":"spr_chest_UI",
+    "path":"sprites/spr_chest_UI/spr_chest_UI.yy",
   },
   "spriteMaskId":null,
   "visible":true,
