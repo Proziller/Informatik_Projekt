@@ -8,8 +8,8 @@
   "name":"obj_inv_gun_slot_4",
   "overriddenProperties":[],
   "parent":{
-    "name":"home",
-    "path":"folders/rooms/home.yy",
+    "name":"inventory",
+    "path":"folders/loadout and inventory/inventory.yy",
   },
   "parentObjectId":{
     "name":"obj_inv_gun_slot_parent",

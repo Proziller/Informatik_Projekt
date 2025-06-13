@@ -13,8 +13,8 @@
   ],
   "name":"ps_hit",
   "parent":{
-    "name":"Informatik_Projekt",
-    "path":"Informatik_Projekt.yyp",
+    "name":"particles",
+    "path":"folders/particles.yy",
   },
   "resourceType":"GMParticleSystem",
   "resourceVersion":"2.0",

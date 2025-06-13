@@ -20,4 +20,13 @@ switch pwerup {
     case "playerspeed": 
         sprite_index = spr_spowerup_player_speed
     break
+    
+    case "gunreload": 
+        sprite_index = spr_spowerup_bullet_reload
+    break
+    
+    case "bulletspeed": 
+        sprite_index = spr_spowerup_bullet_speed
+    break
 }
+show_debug_message(pwerup)

@@ -2,6 +2,8 @@
 if !dashCooldown && room != rm_home{
     direction = point_direction(x,y,mouse_x,mouse_y)
     speedOriginal *= 4
-    alarm[0] = 10
+    alarm[0] = 5
+    hp -= 1
+    dashHp += 1
     audio_play_sound(snd_dash_swosh, 1, false)
 }

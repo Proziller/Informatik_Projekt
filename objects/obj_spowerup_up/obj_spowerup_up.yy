@@ -10,8 +10,8 @@
   "name":"obj_spowerup_up",
   "overriddenProperties":[],
   "parent":{
-    "name":"traider",
-    "path":"folders/rooms/traider.yy",
+    "name":"singular",
+    "path":"folders/power ups/singular.yy",
   },
   "parentObjectId":null,
   "persistent":false,

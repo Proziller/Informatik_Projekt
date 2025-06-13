@@ -24,11 +24,11 @@ function switch_gun(num){
     //giving the gun all the powerups the player has active
     for (var i = 0; i < array_length(global.spowerupsActive); i++) {
         switch global.spowerupsActive[i] {
-            case "damage":
+            case "bulletdamage":
                 Sbullet_damage()
             break
             
-            case "distance":
+            case "bulletdistance":
                 Sbullet_distance()
             break
             
@@ -36,8 +36,12 @@ function switch_gun(num){
                 Sbullet_size()
             break
             
-            case "spread":
+            case "bulletspread":
                 SbulletSpread()
+            break
+            
+            case "gunreload":
+                Sgun_reload()
             break
         }
     }

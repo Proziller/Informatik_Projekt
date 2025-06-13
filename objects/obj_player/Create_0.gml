@@ -13,7 +13,7 @@ gun.bullet = global.loadout[global.selectedGun][1]
 //setting up speed
 speedOriginal = 4
 playerSpeed = speedOriginal
-
+ 
 //applying the speed powerup
 for (var i = 0; i < array_length(global.spowerupsActive); i++) {
     switch global.spowerupsActive[i] {
@@ -34,6 +34,7 @@ else {
 
 //setting up the dash
 dashCooldown = false
+dashHp = 0
 
 //creating dead var
 dead = false

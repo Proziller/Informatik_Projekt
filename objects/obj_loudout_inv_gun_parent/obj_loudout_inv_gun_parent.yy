@@ -11,8 +11,8 @@
   "name":"obj_loudout_inv_gun_parent",
   "overriddenProperties":[],
   "parent":{
-    "name":"home",
-    "path":"folders/rooms/home.yy",
+    "name":"loadout",
+    "path":"folders/loadout and inventory/loadout.yy",
   },
   "parentObjectId":null,
   "persistent":false,

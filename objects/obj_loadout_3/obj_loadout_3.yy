@@ -8,8 +8,8 @@
   "name":"obj_loadout_3",
   "overriddenProperties":[],
   "parent":{
-    "name":"loadout",
-    "path":"folders/HUD/loadout.yy",
+    "name":"HUD",
+    "path":"folders/loadout and inventory/loadout/HUD.yy",
   },
   "parentObjectId":{
     "name":"obj_loadout_1",

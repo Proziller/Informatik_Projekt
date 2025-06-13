@@ -191,6 +191,5 @@ function return_gun_and_bullet(gun, bullet){
             array_push(ret[1], "stunes the hit instance")
         break
     }
-    show_debug_message(ret)
     return ret
 }

@@ -8,8 +8,8 @@
   "name":"obj_hitbox_1",
   "overriddenProperties":[],
   "parent":{
-    "name":"traider",
-    "path":"folders/rooms/traider.yy",
+    "name":"loadout",
+    "path":"folders/loadout and inventory/loadout.yy",
   },
   "parentObjectId":null,
   "persistent":false,

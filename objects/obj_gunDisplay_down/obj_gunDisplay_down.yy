@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"traider",
-    "path":"folders/rooms/traider.yy",
+    "path":"folders/loadout and inventory/traider.yy",
   },
   "parentObjectId":{
     "name":"obj_display_parent",

@@ -21,3 +21,4 @@ switch room {
         room_goto(rm_arena)
     break
 }
+global.hp += obj_player.dashHp

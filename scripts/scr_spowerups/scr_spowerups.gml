@@ -1,6 +1,6 @@
 
 //creating the array that stores all singular powerups
-global.spowerups = ["bulletdamage", "bulletdistance", "bulletsize", "bulletspread", "playerspeed", "playerhealth"]
+global.spowerups = ["bulletdamage", "bulletdistance", "bulletsize", "bulletspread", "bulletspeed", "gunreload", "playerspeed"]
 
 //creating the array that store all active singular powerups
 global.spowerupsActive = []
@@ -21,4 +21,12 @@ function SbulletSpread(){
 
 function Sbullet_size(){
     obj_player.gun.bulletSize *= 1.5
+}
+
+function  Sbullet_speed(){
+    obj_player.gun.bulletSpeed *= 0.75
+}
+
+function Sgun_reload(){
+    obj_player.gun.gunReload *= 0.75
 }

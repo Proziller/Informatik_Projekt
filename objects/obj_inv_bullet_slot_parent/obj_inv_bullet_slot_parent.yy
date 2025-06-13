@@ -9,8 +9,8 @@
   "name":"obj_inv_bullet_slot_parent",
   "overriddenProperties":[],
   "parent":{
-    "name":"home",
-    "path":"folders/rooms/home.yy",
+    "name":"inventory",
+    "path":"folders/loadout and inventory/inventory.yy",
   },
   "parentObjectId":null,
   "persistent":false,

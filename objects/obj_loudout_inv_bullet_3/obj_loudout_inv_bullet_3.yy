@@ -8,8 +8,8 @@
   "name":"obj_loudout_inv_bullet_3",
   "overriddenProperties":[],
   "parent":{
-    "name":"home",
-    "path":"folders/rooms/home.yy",
+    "name":"loadout",
+    "path":"folders/loadout and inventory/loadout.yy",
   },
   "parentObjectId":{
     "name":"obj_loudout_inv_bullet_parent",

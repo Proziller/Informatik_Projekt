@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"loadout",
-    "path":"folders/HUD/loadout.yy",
+    "name":"HUD",
+    "path":"folders/loadout and inventory/loadout/HUD.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

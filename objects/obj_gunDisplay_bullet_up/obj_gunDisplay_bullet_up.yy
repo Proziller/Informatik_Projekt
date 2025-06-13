@@ -7,7 +7,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"traider",
-    "path":"folders/rooms/traider.yy",
+    "path":"folders/loadout and inventory/traider.yy",
   },
   "parentObjectId":null,
   "persistent":false,

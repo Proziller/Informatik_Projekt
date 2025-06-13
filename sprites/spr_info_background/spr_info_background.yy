@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Informatik_Projekt",
-    "path":"Informatik_Projekt.yyp",
+    "name":"HUD",
+    "path":"folders/HUD.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

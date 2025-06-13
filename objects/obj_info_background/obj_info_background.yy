@@ -9,8 +9,8 @@
   "name":"obj_info_background",
   "overriddenProperties":[],
   "parent":{
-    "name":"Informatik_Projekt",
-    "path":"Informatik_Projekt.yyp",
+    "name":"HUD",
+    "path":"folders/HUD.yy",
   },
   "parentObjectId":null,
   "persistent":false,

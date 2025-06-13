@@ -10,8 +10,8 @@
   "name":"obj_loadout_1",
   "overriddenProperties":[],
   "parent":{
-    "name":"loadout",
-    "path":"folders/HUD/loadout.yy",
+    "name":"HUD",
+    "path":"folders/loadout and inventory/loadout/HUD.yy",
   },
   "parentObjectId":null,
   "persistent":true,
