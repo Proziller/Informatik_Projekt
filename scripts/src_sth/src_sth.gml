@@ -4,6 +4,8 @@ global.selectedGun = 0
 global.inv = [[obj_gun_shotgun, obj_bullet_bleeding], [obj_gun_placeholder, obj_bullet_placeholder], [obj_gun_placeholder, obj_bullet_placeholder], [obj_gun_placeholder, obj_bullet_placeholder]]
 global.scraps = "0"
 global.hover = [["",""],["",""]]
+global.hoverLevel = ""
+global.levelHover = ""
 
 //a simple function to determin spread by ammount
 function spread(ammount){ 

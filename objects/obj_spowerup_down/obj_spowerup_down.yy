@@ -6,8 +6,8 @@
   "name":"obj_spowerup_down",
   "overriddenProperties":[],
   "parent":{
-    "name":"singular",
-    "path":"folders/power ups/singular.yy",
+    "name":"power ups",
+    "path":"folders/power ups.yy",
   },
   "parentObjectId":{
     "name":"obj_spowerup_up",

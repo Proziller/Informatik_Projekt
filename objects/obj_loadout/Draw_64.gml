@@ -1,1 +1,3 @@
-draw_self()
+if room != rm_computer{
+    draw_self()
+}

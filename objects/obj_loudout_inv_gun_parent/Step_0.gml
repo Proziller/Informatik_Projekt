@@ -33,67 +33,19 @@ if being_dragged{
             switch invSlot.object_index{
                 
                 case obj_inv_gun_slot_1:
-                    var sgun = global.inv[0][0]
-                    var sbullet = global.inv[0][1]
-                    
-                    global.inv[0][0] = gun
-                    global.inv[0][1] = bullet
-                
-                    global.loadout[index][0] = sgun
-                    global.loadout[index][1] = sbullet
-                    
-                    if sgun != ""{
-                        gun = sgun
-                        bullet = sbullet
-                    }
+                    swap_slot(0)
                 break
                 
                 case obj_inv_gun_slot_2:
-                    var sgun = global.inv[1][0]
-                    var sbullet = global.inv[1][1]
-                    
-                    global.inv[1][0] = gun
-                    global.inv[1][1] = bullet
-                
-                    global.loadout[index][0] = sgun
-                    global.loadout[index][1] = sbullet
-                    
-                    if sgun != ""{
-                        gun = sgun
-                        bullet = sbullet
-                    }
+                    swap_slot(1)
                 break
                 
                 case obj_inv_gun_slot_3:
-                    var sgun = global.inv[2][0]
-                    var sbullet = global.inv[2][1]
-                    
-                    global.inv[2][0] = gun
-                    global.inv[2][1] = bullet
-                
-                    global.loadout[index][0] = sgun
-                    global.loadout[index][1] = sbullet
-                    
-                    if sgun != ""{
-                        gun = sgun
-                        bullet = sbullet
-                    }
+                    swap_slot(2)
                 break
                 
                 case obj_inv_gun_slot_4:
-                    var sgun = global.inv[3][0]
-                    var sbullet = global.inv[3][1]
-                    
-                    global.inv[3][0] = gun
-                    global.inv[3][1] = bullet
-                
-                    global.loadout[index][0] = sgun
-                    global.loadout[index][1] = sbullet
-                    
-                    if sgun != ""{
-                        gun = sgun
-                        bullet = sbullet
-                    }
+                    swap_slot(3)
                 break
             }
         }

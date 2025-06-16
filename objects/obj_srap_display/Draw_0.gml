@@ -1,0 +1,1 @@
+draw_text_ext_transformed(x,  y + 0.75, global.scraps, 0, 10000, 0.25, 0.25, 0)

@@ -1,32 +1,32 @@
 //choosing a random singel powerup and making the sprite match
 pwerup = global.spowerups[irandom(array_length(global.spowerups)-1)]
 switch pwerup {
-    case "bulletdamage": 
-        sprite_index = spr_spowerup_bullet_damage
+    case "bullet damage": 
+        sprite_index = spr_powerup_bullet_damage
     break
     
-    case "bulletdistance":
-        sprite_index = spr_spowerup_bullet_distance
+    case "bullet distance":
+        sprite_index = spr_powerup_bullet_distance
     break
     
-    case "bulletspread":
-        sprite_index = spr_spowerup_bullet_spread
+    case "gun spread":
+        sprite_index = spr_powerup_bullet_spread
     break
     
-    case "bulletsize":
-        sprite_index = spr_spowerup_bullet_size
+    case "bullet size":
+        sprite_index = spr_powerup_bullet_size
     break
     
-    case "playerspeed": 
-        sprite_index = spr_spowerup_player_speed
+    case "player speed": 
+        sprite_index = spr_powerup_player_speed
     break
     
-    case "gunreload": 
-        sprite_index = spr_spowerup_bullet_reload
+    case "gun reload": 
+        sprite_index = spr_powerup_bullet_reload
     break
     
-    case "bulletspeed": 
-        sprite_index = spr_spowerup_bullet_speed
+    case "bullet speed": 
+        sprite_index = spr_powerup_bullet_speed
     break
 }
 show_debug_message(pwerup)

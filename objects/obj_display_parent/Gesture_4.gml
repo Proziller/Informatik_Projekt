@@ -31,7 +31,7 @@ if pos != noone{
             global.loadout[2][1] = bullet_obj
         break
     }
-    
+    show_debug_message(global.loadout)
     //destroying all weapon choices
     instance_destroy(obj_gunDisplay_bullet_up)
     instance_destroy(obj_gunDisplay_bullet_down)
