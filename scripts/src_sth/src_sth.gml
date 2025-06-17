@@ -81,7 +81,7 @@ function shoot(count, damage, dgrOffset, selected, bulletSpread, bulletSpeed, di
     }
 }
 
-
+//searching the right gun and bullet model and their discriptions
 function return_gun_and_bullet(gun, bullet){
     var ret = [[], []]
     switch gun {

@@ -287,6 +287,7 @@
     {"id":{"name":"spr_template_image","path":"sprites/spr_template_image/spr_template_image.yy",},},
     {"id":{"name":"spr_traider_tileset","path":"sprites/spr_traider_tileset/spr_traider_tileset.yy",},},
     {"id":{"name":"Sprite76","path":"sprites/Sprite76/Sprite76.yy",},},
+    {"id":{"name":"Sprite82","path":"sprites/Sprite82/Sprite82.yy",},},
     {"id":{"name":"ts_arena_boss","path":"tilesets/ts_arena_boss/ts_arena_boss.yy",},},
     {"id":{"name":"ts_arena","path":"tilesets/ts_arena/ts_arena.yy",},},
     {"id":{"name":"ts_home","path":"tilesets/ts_home/ts_home.yy",},},
