@@ -20,10 +20,10 @@ switch pwerup {
     break
     
     case "gun reload": 
-        global.hover = [["powerup: ", ""], ["", ""]]
+        global.hover = [["powerup: gun reload", "the gun fires faster"], ["", ""]]
     break
     
     case "player speed": 
-        global.hover = [["powerup: ", ""], ["", ""]]
+        global.hover = [["powerup: player speed", "makes the player faster"], ["", ""]]
     break
 }
