@@ -1,3 +1,4 @@
+//making the tooltip show the powerups information
 switch pwerup {
     case "bullet damage": 
         global.hover = [["powerup: bullet damage", "the bullets do more damage"], ["", ""]]

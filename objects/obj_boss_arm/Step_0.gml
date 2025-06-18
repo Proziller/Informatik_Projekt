@@ -64,6 +64,7 @@ if !cooldown {
         
         case spr_boss_arm_homing:
             shoot(1, 1, 0, false, 3, 10, 165, 1, 120, obj_boss_bullet_homing, self)
+            shoot(1, 0, 0, false, 3, 10, 165, 0, 120, obj_boss_bullet_homing, self)
         break
     }
 }

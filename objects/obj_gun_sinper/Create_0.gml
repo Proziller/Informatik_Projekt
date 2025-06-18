@@ -7,3 +7,4 @@ enemyStandDistance = 150
 gunReload = 90
 bulletDamage = 3
 bulletDist = 165
+bulletSpread = 4
