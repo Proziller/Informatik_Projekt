@@ -47,11 +47,11 @@
         {"$GMRInstance":"v2","%Name":"inst_5D458F3C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5D458F3C","objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":312.0,"y":459.0,},
         {"$GMRInstance":"v2","%Name":"inst_726BB75C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_726BB75C","objectId":{"name":"obj_grid_setup","path":"objects/obj_grid_setup/obj_grid_setup.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":288.0,"y":576.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
-    {"$GMRTileLayer":"","%Name":"Tiles_1","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":17,"SerialiseWidth":20,"TileCompressedData":[
-          -84,24,1,9,-10,8,1,4,-8,24,2,5,11,-8,6,2,12,7,-8,24,2,5,7,-8,24,2,5,7,-8,24,12,5,7,24,24,9,8,8,4,24,
-          24,5,7,-8,24,12,5,7,24,24,5,16,18,7,24,24,5,7,-8,24,12,5,7,24,24,14,6,6,19,24,24,5,7,-8,24,2,5,7,-8,
-          24,2,5,7,-8,24,2,5,10,-8,8,2,13,7,-8,24,1,14,-10,6,1,19,-84,24,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"ts_arena_boss","path":"tilesets/ts_arena_boss/ts_arena_boss.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+    {"$GMRTileLayer":"","%Name":"Tiles_1","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":19,"SerialiseWidth":22,"TileCompressedData":[
+          -115,24,1,9,-10,8,1,4,-10,24,2,5,11,-8,6,2,12,7,-10,24,2,5,7,-8,24,2,5,7,-10,24,12,5,7,24,24,9,8,8,4,
+          24,24,5,7,-10,24,12,5,7,24,24,5,16,18,7,24,24,5,7,-10,24,12,5,7,24,24,14,6,6,19,24,24,5,7,-10,24,2,5,
+          7,-8,24,2,5,7,-10,24,2,5,10,-8,8,2,13,7,-10,24,1,14,-10,6,1,19,-115,24,
+        ],"TileDataFormat":1,},"tilesetId":{"name":"ts_arena_boss","path":"tilesets/ts_arena_boss/ts_arena_boss.yy",},"userdefinedDepth":false,"visible":true,"x":-32,"y":-32,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "name":"rm_arena_boss",
@@ -70,10 +70,10 @@
   "resourceType":"GMRoom",
   "resourceVersion":"2.0",
   "roomSettings":{
-    "Height":544,
+    "Height":608,
     "inheritRoomSettings":false,
     "persistent":false,
-    "Width":640,
+    "Width":704,
   },
   "sequenceId":null,
   "views":[

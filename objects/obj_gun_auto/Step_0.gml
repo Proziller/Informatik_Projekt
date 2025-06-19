@@ -2,5 +2,5 @@
 if !cooldown && pressed && room != rm_home && room != rm_traider {
     
     audio_play_sound(snd_gun_auto, 1, false)
-    shoot(blletCount, bulletDamage, bulletDgrOffset, selected, bulletSpread, bulletSpeed, bulletDist, bulletSize, gunReload, bullet, self)
+    shoot(blletCount, bulletDamage, bulletDgrOffset, selected, bulletSpread, bulletSpeed, bulletDist, bulletSize, gunReload, bullet, self, 0, 3, 0.25)
 }

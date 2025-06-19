@@ -34,6 +34,7 @@ repeat(_stepCount){
                     
                     //activating the hit ability
                     bullet_hit_ability(hit)
+                    hit.alarm[8] = 1
                 }
             }
             
@@ -51,7 +52,8 @@ repeat(_stepCount){
             hit.hp -= dmg
             
             //activating the hit ability
-            bullet_hit_ability(hit)
+            bullet_hit_ability(hit) 
+            hit.alarm[8] = 1
         }
         var ps = part_system_create(ps_hit)
         part_system_position(ps, x, y)

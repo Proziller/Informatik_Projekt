@@ -17,3 +17,6 @@ confused = false
 alarm[0] = 90
 path = path_add()
 destination = obj_player
+
+pops = [snd_pop_01, snd_pop_02, snd_pop_03, snd_pop_04, snd_pop_05, snd_pop_06, snd_pop_07, snd_pop_08, snd_pop_09, snd_pop_10]
+animationFrame = 0

@@ -1,0 +1,1 @@
+animationFrame = image_index;

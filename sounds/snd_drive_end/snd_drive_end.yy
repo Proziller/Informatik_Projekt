@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_drive_end",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.1932653,
+  "name":"snd_drive_end",
+  "parent":{
+    "name":"Informatik_Projekt",
+    "path":"Informatik_Projekt.yyp",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_drive_end.mp3",
+  "type":0,
+  "volume":0.5,
+}

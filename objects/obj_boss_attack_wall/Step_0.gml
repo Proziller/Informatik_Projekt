@@ -12,4 +12,5 @@ var hit = instance_place(x, y, obj_player)
 if hit != noone{
     instance_destroy()
     hit.hp -= 3
+    hit.alarm[8] = 1
 }

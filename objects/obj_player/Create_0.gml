@@ -51,3 +51,8 @@ bleed = 5
 freezing = false
 stunned = false
 stunCooldown = false
+
+directionX = 0
+directionY = 0
+
+dash = false

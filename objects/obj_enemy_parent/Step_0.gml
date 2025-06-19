@@ -4,6 +4,10 @@ if instance_exists(obj_player){
         sprite_index = spr_explosion
         path_end()
         dying = true
+        if object_is_ancestor(object_index, obj_enemy_parent){
+            change_cam_shake(0, 4, 0.25)
+            cam_shake()
+        }
     }
     
     //end the path when stunned or the player is dead
@@ -16,4 +20,11 @@ if instance_exists(obj_player){
         confused = false
         destination = obj_player
     }
+}
+
+if (floor(image_index) != floor(animationFrame)) { 
+    animationFrame = image_index
+    var sound = array_get(pops, irandom(array_length(pops) - 1))
+    audio_play_sound(sound, 1, false)
+    show_debug_message("bib")
 }

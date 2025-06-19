@@ -3,6 +3,6 @@ if instance_exists(obj_player){
     if !cooldown && pressed && room != rm_home && room != rm_traider {
         
         audio_play_sound(snd_gun_big, 1, false)
-        shoot(blletCount, bulletDamage, bulletDgrOffset, selected, bulletSpread, bulletSpeed, bulletDist, bulletSize, gunReload, bullet, self)
+        shoot(blletCount, bulletDamage, bulletDgrOffset, selected, bulletSpread, bulletSpeed, bulletDist, bulletSize, gunReload, bullet, self, 0, 2, 0.05)
     }
 }

@@ -10,13 +10,13 @@ if room == rm_arena_boss{
 repeat (blockades) {
     
     //go to random place of the grid
-    x = irandom(room_width/32)*32
-    y = irandom(room_height/32)*32
+    x = irandom((room_width-64)/32)*32
+    y = irandom((room_height-64)/32)*32
     
     //repeating until the place is allowed to place a blockade on
     while place_meeting(x, y, inaccessablePlaces){
-        x = round(random(room_width/32))*32
-        y = round(random(room_height/32))*32
+        x = irandom((room_width-64)/32)*32
+        y = irandom((room_height-64)/32)*32
     }
     
     //creating the blockade
@@ -33,13 +33,13 @@ if room != rm_arena_boss{
     repeat (enemies) {
         
         //go to random place of the grid
-        x = irandom(room_width/32)*32
-        y = irandom(room_height/32)*32
+        x = irandom((room_width-64)/32)*32
+        y = irandom((room_height-64)/32)*32
         
         //repeating until the place is allowed to place a blockade on
-        while place_meeting(x, y, inaccessablePlaces) {
-            x = round(random_range(32, room_width - 64))
-            y = round(random_range(32, room_height - 64))
+        while place_meeting(x, y, inaccessablePlaces){
+            x = irandom((room_width-64)/32)*32
+            y = irandom((room_height-64)/32)*32
         }
         
         //choosing the enemy

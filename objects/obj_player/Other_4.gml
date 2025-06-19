@@ -3,4 +3,5 @@
 //when in home, reset hp
 if room == rm_home{
     global.hp = maxhp
+    audio_stop_sound(snd_drive)
 }
