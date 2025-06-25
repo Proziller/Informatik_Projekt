@@ -4,11 +4,11 @@ if !dead && room != rm_home{
     
     
     //storing the direction in _ver and _hor
-    var _hor = keyboard_check(ord("D")) - keyboard_check(ord("A"))
-    var _ver = keyboard_check(ord("S")) - keyboard_check(ord("W"))
+    directionX = keyboard_check(ord("D")) - keyboard_check(ord("A"))
+    directionY = keyboard_check(ord("S")) - keyboard_check(ord("W"))
     
     //making the speed be right on diagonals
-    if _ver != 0 && _hor != 0{
+    if directionY != 0 && directionX != 0{
         playerSpeed = sqrt(sqr(speedOriginal)/2)
     }
     else { 
@@ -22,8 +22,24 @@ if !dead && room != rm_home{
     
     //move when not stunned
     if !stunned{
-        move_and_collide(_hor * playerSpeed, _ver * playerSpeed, [obj_blockade, obj_border])
+        move_and_collide(directionX * playerSpeed, directionY * playerSpeed, [obj_blockade, obj_border])
     }
+    
+    
+    //if (directionY != 0 or directionX != 0) {
+        //if !audio_is_playing(snd_drive){
+            //audio_play_sound(snd_drive, 1, false)
+            //audio_sound_pitch(snd_drive, 0.75)
+        //}
+    //}
+    //else {
+        //if audio_is_playing(snd_drive){
+            //audio_play_sound(snd_drive_end, 1, false)
+            //audio_sound_pitch(snd_drive_end, 0.75)
+    	    //audio_stop_sound(snd_drive)
+        //}
+    //}
+    
     
     //making the movment smooth by giving a negativ force when hitting corners
     var upLeft = collision_rectangle(x-10, y-4, x-15, y-15, [obj_blockade, obj_border], false, false)
@@ -49,12 +65,12 @@ if !dead && room != rm_home{
     
     
     //making the wheel sprite match the direction
-    if _hor + _ver == 1{
-        if (_ver == 1) wheels.sprite_index = spr_player_wheels_front1
+    if directionX + directionY == 1{
+        if (directionY == 1) wheels.sprite_index = spr_player_wheels_front1
         else wheels.sprite_index = spr_player_wheels_sides1
     }
-    if _hor + _ver == -1{
-        if (_ver == -1) wheels.sprite_index = spr_player_wheels_front1
+    if directionX + directionY == -1{
+        if (directionY == -1) wheels.sprite_index = spr_player_wheels_front1
         else wheels.sprite_index = spr_player_wheels_sides1
     }
     
@@ -83,4 +99,9 @@ if !dead && room != rm_home{
         }
         image_xscale = 1.5
     }
+}
+if dash{
+    var xOff = random_range(-0.5, 0.5)
+    var yOff = random_range(-0.5, 0.5)
+    camera_set_view_pos(view_camera[0], camera_get_view_x(view_camera[0]) + directionX + xOff, camera_get_view_y(view_camera[0]) + directionY + yOff)
 }

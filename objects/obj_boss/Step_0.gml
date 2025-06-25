@@ -7,6 +7,8 @@ if hp < 1 && !dying{
     legL.sprite_index = spr_explosion
     legR.sprite_index = spr_explosion
     dying = true
+    change_cam_shake(5, 15, 0.5)
+    cam_shake()
 }
 
 //make all parts move

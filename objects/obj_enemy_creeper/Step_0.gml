@@ -16,5 +16,8 @@ if instance_exists(obj_player){
         exploded = true
         sprite_index = spr_explosion
         image_speed = 1
+        
+        change_cam_shake(2, 10, 0.1)
+        alarm[8] = 1
     }
 }

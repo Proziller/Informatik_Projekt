@@ -4,6 +4,10 @@ switch room {
         audio_play_sound(msk_home,2,false)
         alarm[0] = 769
     break
+    case rm_computer:
+        audio_play_sound(msk_home,2,false)
+        alarm[0] = 769
+    break
     case rm_traider:
         audio_play_sound(msk_traider,2,false)
         alarm[0] = 385
@@ -16,5 +20,4 @@ switch room {
         audio_play_sound(msk_fight_boss, 2,false)
         alarm[0] = 769
     break
-	
 }

@@ -23,7 +23,7 @@ global.round = 1
 
 //======================the function to shoot:=============================
 
-function shoot(count, damage, dgrOffset, selected, bulletSpread, bulletSpeed, dist, size, reloud, bullet, instance){
+function shoot(count, damage, dgrOffset, selected, bulletSpread, bulletSpeed, dist, size, reloud, bullet, instance, shakeTime, shakeMagnitude, shakeFade){
     if instance_exists(obj_player){
         //iterating for count
         for (var i = 0; i < count; i++) {
@@ -31,12 +31,14 @@ function shoot(count, damage, dgrOffset, selected, bulletSpread, bulletSpeed, di
             //creating the bullet and storing it in created_bullet
             var created_bullet = instance_create_depth(instance.x, instance.y, -9, bullet)
             
+            change_cam_shake(shakeTime/2, shakeMagnitude/2, shakeFade)
             //if the gun is selectet/held by the player it changes the targets to be the enemies and points the bullet to the mouse
             if selected {
                 with created_bullet{
                     bulletTarget = [obj_enemy_parent]
                     image_angle = point_direction(x, y, mouse_x, mouse_y)
                 }
+                change_cam_shake(shakeTime, shakeMagnitude, shakeFade)
             }
             //else it points the bullet in the direction of the player
             else {
@@ -78,7 +80,8 @@ function shoot(count, damage, dgrOffset, selected, bulletSpread, bulletSpeed, di
             part_system_position(ps, instance.x, instance.y)
             part_system_depth(ps, instance.depth+1)
         }
-    }
+        cam_shake()
+     }
 }
 
 //searching the right gun and bullet model and their discriptions
@@ -194,4 +197,48 @@ function return_gun_and_bullet(gun, bullet){
         break
     }
     return ret
+}
+
+
+function cam_shake(){ 
+    obj_screenshake.shakeTime -= 1
+    var _xval = 0
+    if obj_screenshake.shakeMagnitude != 0{
+        while _xval == 0{
+            _xval = choose(-obj_screenshake.shakeMagnitude, obj_screenshake.shakeMagnitude)
+        }
+        var _yval = 0
+        while _yval == 0{
+            _yval = choose(-obj_screenshake.shakeMagnitude, obj_screenshake.shakeMagnitude)
+        }
+        camera_set_view_pos(view_camera[0], _xval, _yval)
+    }
+    
+    if (obj_screenshake.shakeTime <= 0) {
+         obj_screenshake.shakeMagnitude -= obj_screenshake.shakeFade
+        
+        if (obj_screenshake.shakeMagnitude <= 0) { 
+            camera_set_view_pos(view_camera[0], 0, 0)
+            obj_screenshake.shakeTime = 0
+            obj_screenshake.shakeMagnitude = 0
+            obj_screenshake.shakeFade = 0
+        }
+    }
+    if obj_screenshake.shakeMagnitude > 0{
+        obj_screenshake.alarm[0] = 1
+    }
+}
+
+function change_cam_shake(shakeTime, shakeMagnitude, shakeFade){
+    if shakeTime > obj_screenshake.shakeTime{
+        obj_screenshake.shakeTime = shakeTime
+    }
+    
+    if shakeMagnitude > obj_screenshake.shakeMagnitude{
+        obj_screenshake.shakeMagnitude = shakeMagnitude
+    }
+    
+    if shakeFade > obj_screenshake.shakeFade{
+        obj_screenshake.shakeFade = shakeFade
+    }
 }

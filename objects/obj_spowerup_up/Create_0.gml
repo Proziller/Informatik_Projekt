@@ -29,4 +29,3 @@ switch pwerup {
         sprite_index = spr_powerup_bullet_speed
     break
 }
-show_debug_message(pwerup)

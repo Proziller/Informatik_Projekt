@@ -3,7 +3,7 @@ x += x_speed
 y += y_speed
 
 //delete the wall when hitting a blockade or the border of the map
-if place_meeting(x, y, [obj_blockade, obj_border]){
+if position_meeting(x, y, [obj_blockade, obj_border]){
     instance_destroy()
 }
 
@@ -12,4 +12,5 @@ var hit = instance_place(x, y, obj_player)
 if hit != noone{
     instance_destroy()
     hit.hp -= 3
+    hit.alarm[8] = 1
 }
